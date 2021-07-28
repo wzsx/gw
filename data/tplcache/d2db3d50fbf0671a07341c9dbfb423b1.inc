@@ -1,0 +1,1 @@
+<li><a href="{dede:global.cfg_baidu/}" target="_blank">[field:title /]</a></li>

@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/list.php?tid={dede:field.id/}";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<html lang="cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:global.cfg_description/}">
+	<meta name="description" content="{dede:global.cfg_keywords/}">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="/templets/default/css/header.css">
+	<link href="/templets/default/css/animate.css" rel="stylesheet">
+	<link href="/templets/default/css/highseve_inx.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/templets/default/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/templets/default/css/css3.css">
+	<script charset="utf-8" src="/templets/default/css/lxb.js"></script><script charset="utf-8" src="/templets/default/css/v.js"></script><script src="/templets/default/css/hm.js"></script><script type="text/javascript" defer="" async="" src="/templets/default/css/81b1085b146b01f5.js"></script><script src="/templets/default/css/push.js"></script><script type="text/javascript" src="/templets/default/css/jquery-1.9.1.min.js"></script>
+</head><body>
+	<div id="header"><h1>注册公司,郑州注册公司，郑州代理记账报税，郑州注册公司流程及费用。</h1>
+		<div class="head_top">
+			<div class="head_tc ct">
+					{dede:include filename="head.htm"/}
+			</div>
+		</div>
+		<!-- end header_top -->
+		<div class="head_ct ct">
+			<div class="logo"><a class="logo_a" href="/" target="_blank"></a></div>
+			<div class="headerct"><img src="/templets/default/css/head_ctt.png"></div>
+			<div class="head_cr"></div>
+		</div>
+		<!-- end header_center -->
+		<div class="head_bt">
+			<div class="head_bt_left fl">
+				<ul class="nav">
+					<li class="act">全部服务分类<i></i>
+						<ul class="hid">
+																																																																																											{dede:include filename="head2.htm"/}	
+						</ul>
+					</li>
+					{dede:include filename="head1.htm"/}	
+								</ul></div>
+			<!--<div class="search fr">
+				<input type="text" name="work" placeholder="服务搜索"><a href="{dede:global.cfg_baidu/}"><i></i></a>
+			</div> -->
+		</div>
+		<div class="clear"></div>
+	</div>
+	<link rel="stylesheet" type="text/css" href="/templets/default/css/cell.css">
+	<!-- banner -->
+    <div id="banner"><div class="bnaner2" style="height:444px;background:url(/templets/default/css/120925384194.jpg) no-repeat center;"></div></div>
+	<!-- banner -->
+
+	<div class="cell_m01">
+		<div class="cell_m01_title"><hr><label>注销公司信息</label><hr></div>
+		<div class="title"><li><span class="on">注销公司条件</span></li><li><span>注销公司所需资料</span></li><div class="clear"></div></div>
+		<div class="content ct">
+			<div class="table">
+				<div class="repeat-y"></div>
+				<table border="0" width="100%" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td><i>1</i>公司经营不下去或者公司不想继续经营</td>
+						<td><i>2</i>公司被依法宣告破产</td>
+					</tr>
+					<tr>
+						<td><i>3</i>营业期限届满或者公司章程规定的其他解散事由</td>
+						<td><i>4</i>公司股东会决议解散</td>
+					</tr>
+					<tr>
+						<td><i>5</i>公司因合并分立解散</td>
+						<td><i>6</i>公司被依法责令关闭</td>
+					</tr>
+				</tbody></table>
+				<table border="0" width="100%" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td><i>1</i>营业执照正副本原件</td>
+						<td><i>2</i>组织机构代码证正副本原件</td>
+					</tr>
+					<tr>
+						<td><i>3</i>税务登记证正副本原件</td>
+						<td><i>4</i>股东身份证正面信息及个人U盾</td>
+					</tr>
+					<tr>
+						<td><i>5</i>公司所有章</td>
+						<td><i>6</i>银行机构代码信用证</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+		<div class="bottom-p">不同类型公司注销资料或有不同，具体根据工商局信息为准</div>
+		<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="more">我要注销公司，在线咨询</div></a>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			var tabTitle = ".cell_m01 .title span";
+			var tabContent = ".cell_m01 .table table";
+			$(tabTitle + ":first").addClass("on");
+			$(tabTitle).unbind("click").bind("mouseover", function(){
+				$(tabTitle).removeClass("on");
+				$(this).addClass("on");
+				//$(this).siblings('span').removeClass("on").end().addClass("on");
+				var index = $(tabTitle).index( $(this) );
+				$(tabContent).eq(index).siblings(tabContent).hide().end().fadeIn("slow");
+			});
+		})
+	</script>
+
+	<div class="cell_m02">
+		<div class="cell_m01_title"><hr><label>注销公司信息</label><hr><p style="color:#c9c9c9;">不运营的公司不办理注销导致吊销遗患无穷</p></div>
+		<div class="content ct">
+			<ul>
+				<li class="li1"><dt></dt><dd>无法乘坐高铁飞机</dd></li>
+				<li class="li2"><dt></dt><dd>每年将产生罚款</dd></li>
+				<li class="li3"><dt></dt><dd>个人征信留下污点</dd></li>
+				<li class="li4"><dt></dt><dd>无法办理贷款</dd></li>
+				<li class="li5"><dt></dt><dd>进入工商黑名单</dd></li>
+				<li class="li6"><dt></dt><dd>无法移民</dd></li>
+			</ul>
+		</div>
+		<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="more">立即注销</div></a>
+	</div>
+
+	<div class="cell_m03">
+		<div class="cell_m01_title"><hr><label>公司注销流程</label><hr><p>全程加急节省您的时间，一站式搞定变更流程</p></div>
+		<div class="content"></div>
+	</div>
+
+	<div class="cell_m04">
+		<div class="cell_m01_title"><hr><label>达丰注销优势</label><hr><p>同行比较，达丰优势看得见</p></div>
+		<div class="content">
+			<div class="cell_m04_l fl">
+				<div class="title">达丰财务</div>
+				<ul>
+					<dl style="margin-top:70px;">
+						<dt class="fl dt1"></dt>
+						<dd class="fr"><strong>时效快</strong><p>办事时效同行快，资料及时办理，确定百分百注销成功。</p></dd>
+					</dl>
+					<div class="clear"></div>
+					<hr>
+					<dl>
+						<dt class="fl dt2"></dt>
+						<dd class="fr"><strong>正规办理</strong><p>签订合同，正规办理，官方统一价，明码标价，无隐形<br>消费，拒接中途加价，全市低。</p></dd>
+					</dl>
+					<div class="clear"></div>
+					<hr>
+					<dl>
+						<dt class="fl dt3"></dt>
+						<dd class="fr"><strong>一对一服务</strong><p>为您配备专业顾问一对一服务，全程免费，岗位分工明细<br>，每个办事流程都有相应的部门负责，办事效率高。</p></dd>
+					</dl>
+					<div class="clear"></div>
+					<hr>
+					<dl>
+						<dt class="fl dt4"></dt>
+						<dd class="fr"><strong>效率高</strong><p>熟悉各办事流程，熟知工商税务部门有关规则，办事方便<br>快捷，领先同行。</p></dd>
+					</dl>
+				</ul>
+			</div>
+			<div class="cell_m04_r fr">
+				<div class="title">其他公司注销</div>
+				<ul>
+					<dl style="margin-top:65px;">
+						<dt class="fl dt1"></dt>
+						<dd class="fr"><strong>速度慢</strong><p>时效慢，多家资料堆积一起注销，不确定什么时候能注销完。</p></dd>
+						<div class="clear"></div>
+					</dl>
+					<dl>
+						<dt class="fl dt2"></dt>
+						<dd class="fr"><strong>私人办理</strong><p>公司仅几个人，一人对接多个客户，问题不能及时得到处理。</p></dd>
+						<div class="clear"></div>
+					</dl>
+					<dl>
+						<dt class="fl dt3"></dt>
+						<dd class="fr"><strong>专业知识不到位</strong><p>并非专业人员，没有经过任何培训，无法及时解决问题。</p></dd>
+						<div class="clear"></div>
+					</dl>
+					<dl>
+						<dt class="fl dt4"></dt>
+						<dd class="fr"><strong>注销流程不熟悉</strong><p>注销的整个流程不熟悉，办理每一步流程还需打电话问。</p></dd>
+						<div class="clear"></div>
+					</dl>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="ness_lead">
+		<div class="lead_ct">
+			<div class="bg_img"></div>
+			<div class="title"><i></i><strong>领先同行  时效快</strong><i></i><p>快速通道 快速办理</p></div>
+			<a href="{dede:global.cfg_baidu/}" target="_blank"><li class="li1">1.客户提供完整资料</li></a>
+			<a href="{dede:global.cfg_baidu/}" target="_blank"><li class="li2">2.线上系统化流程操作</li></a>
+			<a href="{dede:global.cfg_baidu/}" target="_blank"><li class="li3">3.专属客服全程跟踪完成</li></a>
+			<div class="last">合同签订后，即时申报，保证时效，<br>提供专业建议，效率高保证材料上传规范，业内通过率高</div>
+		</div>
+	</div>
+	<div id="ness_onal">
+		<div class="title"><i></i><strong>专业高效  服务可靠</strong><i></i><p>达丰财务有限公司有专业的工商服务团队，效率高，<br>
+服务可靠，多种服务项目供你选择</p></div>
+		<div class="content ct"> 
+			<ul class="ct">
+				<li><dt>快捷服务</dt><dd>为客户做好省心、省时快捷的服务是<br>我们的基本服务</dd></li>
+				<li><dt>管理高效</dt><dd>为了管理高效，我们采用以信息<br>系统为基础的管理模式</dd></li>
+				<li><dt>专业团队</dt><dd>我们有专业的财务团队，公司内部每月<br>都有专业的培训和适当的学习提升</dd></li>
+				<li><dt>高端定制</dt><dd>出于对您企业的成本考量，我们为您<br>量身定制解决方案，提供多种服务</dd></li>
+			</ul>
+		</div>
+	</div>
+	<div id="ness_field">
+		<div class="title"><i></i><strong>工商服务领域</strong><i></i><p>工商服务主营业务</p></div>
+		<div class="content ct"> 
+			<ul>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>办理营业执照</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册前海公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册香港公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>外资公司注册</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注销公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>食品经营许可证</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>地址挂靠</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>开对公户</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>进出口权办理</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册个体工商户</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更公司名称</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更法人</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更注册地址</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更股权</li></a>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="m09">
+		<div class="title"><i></i><label>行业新闻及常见问题</label><i></i><p>专人为你解答</p></div>
+		<div class="content ct">
+			<div class="fl m09_l">
+								<div class="ft"><label>行业百科</label><a target="_blank" href="/fuwu/"><span class="fr">更多 &gt;</span></a></div>
+								<ul>
+                                {dede:arclist titlelen='40' limit='0,1'  typeid=22,23,24,25,26,27,36,35,37,31}
+													<li class="on">
+						<dt><label><a target="_blank" href="[field:arcurl /]">[field:title /]</a></label><i class="fr">[field:pubdate function="GetDateMK(@me)"/]</i></dt>
+						<dd>　　[field:description function='cn_substr(Html2text("@me")."...",160)'/]...</dd>
+					</li>
+                    {/dede:arclist} 
+                     {dede:arclist titlelen='40' limit='1,3'  typeid=22}
+					 												<li><dt><label><a target="_blank" href="[field:arcurl /]">[field:title /]</a></label><i class="fr">[field:pubdate function="GetDateMK(@me)"/]</i></dt></li>
+																	{/dede:arclist} 
+												</ul>
+			</div>
+			<div class="fr m09_r">
+				<div class="ft"><label>常见问题</label></div>
+				<div class="list_r">
+				<div class="list_lh zhucewenti">
+					<ul style="margin-top: -36px;">
+						
+						{dede:arclist titlelen='40' row="20"  typeid=28}
+						<li><i></i><a href="[field:arcurl /]" target="_blank">[field:title /]</a>
+						<!--<a href="{dede:global.cfg_baidu/}" target="_blank" class="more fr">在线解答</a> --></li>
+                        
+						 {/dede:arclist} </ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/templets/default/css/scroll.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("div.zhucewenti").myScroll({
+				speed:40, //数值越大，速度越慢
+				rowHeight:56 //li的高度
+			});
+		});
+	</script>
+	<div class="clear"></div>
+	
+<!-- 留言 -->
+
+{dede:include filename="footer.htm"/}
+</body></html>

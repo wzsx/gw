@@ -1,0 +1,7 @@
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('siteurl','','1556605080');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('checksign','','1556605080');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('pingtoken','','1556605080');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('bdpwd','65532b4a70d2f95e93','1556605080');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('setupmaxaid','1073','1556605080');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_all','1556605080','1556605080');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_inc','','0');

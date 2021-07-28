@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("channelartlist","\r\n					<dd><a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">{dede:field name='typename'/}</a></dd>\r\n						",2882,3070);
+$z[0][4]=array();
+$z[0][4]['typeid']="9,10,11,30";
+$z[1]=Array("channelartlist","\r\n					<dd><a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">{dede:field name='typename'/}</a></dd>\r\n						",3142,3328);
+$z[1][4]=array();
+$z[1][4]['typeid']="12,13,32";
+$z[2]=Array("channelartlist","\r\n					<dd><a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">{dede:field name='typename'/}</a></dd>\r\n						",3400,3592);
+$z[2][4]=array();
+$z[2][4]['typeid']="14,15,16,33,34";
+$z[3]=Array("channel","\r\n					<dd><a href=\"[field:typeurl/]\" target=\"_blank\">[field:typename/]</a></dd>\r\n					",3664,3801);
+$z[3][4]=array();
+$z[3][4]['type']="son";
+$z[3][4]['typeid']="22";
+$z[4]=Array("channelartlist","\r\n					<dd><a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">{dede:field name='typename'/}</a></dd>\r\n					",3872,4052);
+$z[4][4]=array();
+$z[4][4]['typeid']="1,2";
+$z[5]=Array("global","",4468,4490);
+$z[5][4]=array();
+$z[5][4]['name']="cfg_tel";
+$z[6]=Array("global","",4605,4629);
+$z[6][4]=array();
+$z[6][4]['name']="cfg_baidu";
+$z[7]=Array("global","",4710,4731);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_qq";
+$z[8]=Array("global","",5173,5197);
+$z[8][4]=array();
+$z[8][4]['name']="cfg_baidu";
+$z[9]=Array("global","",5487,5509);
+$z[9][4]=array();
+$z[9][4]['name']="cfg_tel";
+$z[10]=Array("global","",5548,5572);
+$z[10][4]=array();
+$z[10][4]['name']="cfg_baidu";
+$z[11]=Array("global","",5720,5741);
+$z[11][4]=array();
+$z[11][4]['name']="cfg_qq";
+$z[12]=Array("global","",5780,5804);
+$z[12][4]=array();
+$z[12][4]['name']="cfg_baidu";
+
+?>

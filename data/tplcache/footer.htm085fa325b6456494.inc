@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("channelartlist","\r\n					<dd><a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">{dede:field name='typename'/}</a></dd>\r\n						",2695,2882);
+$z[0][4]=array();
+$z[0][4]['typeid']="4,5,6,7,8";
+$z[1]=Array("channel","\r\n					<dd><a href=\"[field:typeurl/]\" target=\"_blank\">[field:typename/]</a></dd>\r\n					",2954,3091);
+$z[1][4]=array();
+$z[1][4]['type']="son";
+$z[1][4]['typeid']="22";
+$z[2]=Array("channelartlist","\r\n					<dd><a href=\"{dede:field name='typeurl'/}\" target=\"_blank\">{dede:field name='typename'/}</a></dd>\r\n					",3162,3344);
+$z[2][4]=array();
+$z[2][4]['typeid']="1,2,3";
+$z[3]=Array("global","",3752,3774);
+$z[3][4]=array();
+$z[3][4]['name']="cfg_tel";
+$z[4]=Array("global","",3921,3942);
+$z[4][4]=array();
+$z[4][4]['name']="cfg_qq";
+$z[5]=Array("global","",4073,4094);
+$z[5][4]=array();
+$z[5][4]['name']="cfg_qq";
+$z[6]=Array("global","",4137,4158);
+$z[6][4]=array();
+$z[6][4]['name']="cfg_qq";
+$z[7]=Array("global","",4579,4600);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_qq";
+$z[8]=Array("global","",4907,4929);
+$z[8][4]=array();
+$z[8][4]['name']="cfg_tel";
+$z[9]=Array("global","",5000,5021);
+$z[9][4]=array();
+$z[9][4]['name']="cfg_qq";
+$z[10]=Array("global","",5186,5207);
+$z[10][4]=array();
+$z[10][4]['name']="cfg_qq";
+$z[11]=Array("global","",5278,5299);
+$z[11][4]=array();
+$z[11][4]['name']="cfg_qq";
+
+?>

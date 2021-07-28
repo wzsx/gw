@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+/* 工商服务修改->注册公司 */
+.ces_m00{width: 100%;height: 580px;background: #f2f2f2;overflow: hidden;}
+.ces_m00_title{margin:50px auto 25px auto;text-align: center;}
+.ces_m00_title hr{display: inline-block;width: 100px;height: 10px;border: 0;border-top: 1px solid #ccc;}
+.ces_m00_title label{font-size: 28px;margin: 0 50px;}
+.ces_m00_title p{font-size: 18px;margin-top:10px;}
+.ces_m00 .content{text-align: center;width: 1200px;margin: 0 auto;}
+.ces_m00 .content ul{width: 100%;height: 370px;position: relative;}
+.ces_m00 .content ul li{position: relative; float: left;overflow: hidden;margin-top: 25px; width: 280px;height: 340px;margin-left: 26px;background: #fff;transition: all ease-out .2s;box-shadow:-10px 0 10px rgba(204,204,204,.3),10px 0 10px rgba(204,204,204,.3),0 0 0 rgba(204,204,204,.3),0 15px 15px rgba(204,204,204,.3); }
+.ces_m00 .content ul li:first-child{margin-left: 1px;}
+.ces_m00 .content ul li:hover{margin-top: 0;}
+.ces_m00 .content .img{margin-top: 50px;}
+.ces_m00 .content dt{font-size: 24px;margin: 15px auto 6px auto; }
+.ces_m00 .content dd{color: #808080;line-height: 20px;}
+.ces_m00 .content .more{width: 100px;height: 36px;margin: 0 auto;border: 1px solid #c4c4c4;line-height: 36px;color: #818181;border-radius: 18px;position: absolute;bottom: 40px;left: 90px; }
+.ces_m00 .content li.li1 dt{color: #126fcc;}
+.ces_m00 .content li.li1:hover .more{color: #fff;background: #126fcc;border: 0;}
+.ces_m00 .content li.li2 dt{color: #f34545;}
+.ces_m00 .content li.li2:hover .more{color: #fff;background: #f34545;border: 0;}
+.ces_m00 .content li.li3 dt{color: #fea444;}
+.ces_m00 .content li.li3:hover .more{color: #fff;background: #fea444;border: 0;}
+.ces_m00 .content li.li4 dt{color: #40d0f4;}
+.ces_m00 .content li.li4:hover .more{color: #fff;background: #40d0f4;border: 0;}
+.ces_m01{overflow: hidden;font-family: '微软雅黑';}
+.ces_m01 .ct{height: 120px;margin: 40px auto 26px auto;}
+.ces_m01 .content{text-align: center;}
+.ces_m01 .content li{width: 299.2px;height: 120px;float: left;border-left: 1px dashed #e8e8e8;overflow: hidden;}
+.ces_m01 .content li:first-child{border-left: 0;}
+.ces_m01 .content li label{color: #1dacfe;font-size: 48px;line-height: 60px;margin-top: 15px;display: inline-block;}
+.ces_m01 .content li label span{color: #333;font-size: 16px;line-height: 0px;}
+.ces_m01 .content li p{line-height: 22px;font-size: 18px;}
+.ces_m02{width: 100%;height: 510px;background: url(../images/ces_m02.jpg) no-repeat center;background-size: 100% 100%;font-family: '微软雅黑';overflow: hidden;}
+.ces_m02 .ct{height: 100%;background: url(../images/ces_m02_ct.png);}
+.ces_m02 .ces_m00_title label{color: #fff;}
+.ces_m02 .content{width: 1030px;height: 510px;margin: 0 auto;overflow: hidden;}
+.ces_m02 .tishi{width:335px; height:150px; margin:0 auto; border-radius:5px; background:#fff; font-size:16px; text-align:center; position:fixed; top:50%; margin-top:-65px; left:50%; margin-left:-166px; z-index:2; display:none;}
+.ces_m02 .tishi .wenzi{color:#434343; padding:20px 0 15px; border-bottom:1px solid #F3F3F3; }
+.ces_m02 .tishi .queding{width:110px; height:34px; line-height:34px; background:#1BADF6; color:#fefefe; margin:15px auto 0; border-radius:5px; cursor:pointer;}
+.ces_m02 .bg{width:100%;height:100%; position:fixed; left:0;top:0; opacity:.6; background:#000; z-index:1; display:none;}
+.ces_m02_first{color: #d2d2d2;font-size: 14px;margin-top: 26px;margin-left: 5px;margin-bottom: 8px;}
+.ces_m02_two{width: 100%;height: 60px;line-height: 60px;font-family: '微软雅黑';position: relative;}
+.ces_m02_two .inp1{width: 365px;position: absolute;left: 0px;top: 1px;}
+.ces_m02_two .inp2{width: 140px;position: absolute;left: 395px;top: 1px;}
+.ces_m02_two .inp3{width: 180px;position: absolute;left: 560px;top: 1px;}
+.ces_m02_two input{padding-left: 10px;margin-right: 20px;height: 58px;line-height:58px;border: 0;font-size: 18px;color: #333; }
+.ces_m02_two input:focus{outline:none;}
+.ces_m02_two button:focus{outline:none;}
+.ces_m02_two input::-webkit-input-placeholder{text-indent: 0px;color: #bdbdbd;font-size: 16px;}
+.ces_m02_two button{position: absolute;right: 0; width: 270px;height: 60px;line-height: 60px;background: #f04c53;border: 0;color: #fff;font-size: 20px;cursor: pointer;}
+.ces_m02_two button i{display: inline-block;width: 30px;height: 30px;background: url(../images/ces_m02_button.png) no-repeat center;vertical-align: middle;margin-right: 10px;}
+.ces_m02 .box{width: 100%;height: 260px;background: #fff;margin-top: 25px;overflow: hidden;}
+.ces_m02 .box h1{font-weight: normal;font-size: 22px;}
+.bcon{margin-top: 25px;margin-left: 50px;}
+.ces_m02 .list_lh{width: 100%;height: 180px;margin-top: 10px;overflow: hidden;}
+.ces_m02 .list_lh li span{display: inline-block;margin-right: 20px;color: #7d7d7d;font-size: 16px;line-height: 40px;}
+.ces_m02 .list_lh .span4{color: #57aada;}
+.ces_m04{background: #f5f5f5;width: 100%;height: 870px;overflow: hidden;text-align: center;}
+.ces_m04 .content{width: 100%;height: 560px;background: #fff;}
+.ces_m04 .content dt{width: 100%;height: 100px;overflow: hidden;}
+.ces_m04 .content dt li{float: left;width: 298px;height: 98px;line-height: 98px;border: 1px solid #e6e6e6;font-size: 24px;cursor: pointer;}
+.ces_m04 .content dt li.on{border: 0;border-top: 3px solid #0099e6;color: #0099e6;width: 300px;}
+.ces_m04 .content dd{width: 100%;height: 460px;overflow: hidden;}
+.ces_m04 .content dd li{width: 100;height: 460px;overflow: hidden;position: relative;}
+.ces_m04 .content li.li1 img{margin-top: 68px;}
+.ces_m04 .content p{position: absolute;bottom: 26px; line-height: 26px;color: #0099e5;width: 100%; }
+.ces_m04 .content p:before{content: " ";background: #0099e5;width: 8px;height: 8px;border-radius: 4px;margin-right: 4px;display: inline-block;vertical-align: middle;}
+.ces_m04 .content h2{font-size: 18px;margin-top: 35px;display: block;}
+.ces_m04 .list{position: absolute;left: 375px;top: 75px; height: 300px;width: 600px;}
+.ces_m04 .list .fl{width: 48px;height: 48px;line-height: 50px; overflow: hidden;border-radius: 26px;border: 2px solid #0099e6;color: #0099e6;margin-top: 6px;margin-bottom: 6px;font-size: 26px;}
+.ces_m04 .list .fr{width: 548px;height: 85px;text-align: left;text-indent: 30px;margin-top: 20px;}
+.ces_m04 .list .fr label{font-size: 20px;color: #0099e6;}
+.ces_m04 .list .fr span{text-indent: 30px;display: inline-block;font-size: 16px;color: #888888;line-height: 30px;}
+.ces_m04 .list hr{width: 1px; height: 45px;border:0;border-left: 1px dashed #62727f;margin: 0 auto;}
+.ces_m04 .content li.li3 img{margin-top: 85px;}
+.ces_m04 .content li.li4 img{margin-top: 90px;}
+.ces_zx{width: 400px;height: 60px;line-height: 60px;background: #0099e6;margin: 47px auto;color: #fff;}
+.ces_m05{width: 100%;height: 930px;overflow: hidden;}
+.ces_m05_up{width: 1050px;height: 340px;margin: 60px auto;overflow: hidden;}
+.ces_m05_up .fl{width: 690px;}
+.ces_m05_up .fr{width: 320px;}
+.ces_m05_up .fr li{width: 100%;line-height: 50px;background: #f5f5f5;text-indent: 26px;margin: 30px auto;color: #656565;font-size: 16px;}
+.ces_m05_lower table{width: 1000px;height: 265px;margin: 100px auto; border-collapse: collapse;} 
+.ces_m05_lower table td{width: 50%;text-indent: 30px;line-height: 36px;font-size: 18px; border: 1px solid #e6e6e6;}
+.ces_m05_lower table th{height: 80px; border: 1px solid #e6e6e6;}
+.ces_m05_lower table th .c{width: 90%;margin: 0 auto;line-height: 40px;color: #0099e5;font-size: 20px;}
+.ces_m05_lower table th .c .fr{width: 125px;height: 40px;line-height: 40px;color: #fff;background: #0099e6;border-radius: 20px;font-size: 16px;}
+
+/*--弹窗样式--*/
+#gray{width:100%;height:100%;background:rgba(0,0,0,0.3);position:fixed;top:0px;display:none;z-index:99;}
+.popup{width:480px;height:auto;overflow: hidden; background-color:#fff;z-index:100;left:400px;top:96px;display:none;position: fixed;}
+.popup .top_nav{width: 100%;height: 60px;line-height: 60px;background: #333;text-align: center;position:relative;cursor:move;color: #fff;font-size: 20px;text-align: center;}
+.popup .min{width: 100%;height:auto;padding-top: 10px;}
+.popup .min input{display: block;width: 400px;height: 50px;background: #e6e6e6;text-align: center;margin: 10px auto;border: 0;font-size: 20px;}
+.popup .min input:focus{outline:none;}
+.popup .min button{width: 300px;height: 44px;line-height: 44px;margin: 20px auto 0 auto;border: 0;display: block;background: #f04c53;color: #f5f5f5;font-size: 16px;}
+.popup .min p{text-align: center;font-size: 14px;color: #999;margin: 10px auto;}
+#zc_phone2{font-size: 30px;color: #f04c53;}

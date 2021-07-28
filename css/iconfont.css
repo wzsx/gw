@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 183626 */
+  src: url('../other/font_183626_9wzipi970f.eot');
+  src: url('../other/font_183626_9wzipi970f.eot?#iefix') format('embedded-opentype'),
+  url('../other/font_183626_9wzipi970f.woff') format('woff'),
+  url('../other/font_183626_9wzipi970f.ttf') format('truetype'),
+  url('../other/font_183626_9wzipi970f.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}

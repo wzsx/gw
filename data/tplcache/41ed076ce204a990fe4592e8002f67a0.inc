@@ -1,0 +1,1 @@
+<img src="[field:logo /]" style="width:180px;height:88px;border:1px #ccc solid;" />

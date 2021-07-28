@@ -1,0 +1,399 @@
+﻿body
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+	FONT-VARIANT: normal;
+	FONT-STYLE: normal;
+	FONT-WEIGHT:normal;
+    background:url(../images/bg.gif) repeat-x;
+    color: #666666;
+}
+ul,ul li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img
+{
+    border: none;
+}
+p
+{
+    margin: 0px;
+    padding: 0px;
+}
+div
+{
+    margin: 0 auto;
+    _overflow: hidden;
+}
+a:link
+{
+    color: #666666;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #666666;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: #666666;
+}
+a:active
+{
+    text-decoration: none;
+}
+.line
+{
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+.clear
+{
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+}
+.between5
+{
+    width: 100%;
+    height: 5px;
+    clear: both;
+}
+.between10
+{
+    width: 100%;
+    height: 10px;
+    clear: both;
+}
+.between15
+{
+    width: 100%;
+    height: 15px;
+    clear: both;
+}
+.between20
+{
+    width: 100%;
+    height: 20px;
+    clear: both;
+}
+.font1
+{
+   font-size:12px;
+}
+.font2
+{
+   font-size:14px;
+}
+.font3
+{
+   font-size:18px;
+}
+/*灰色-默认*/
+.c_grey
+{
+    color: #666666;
+}
+.c_grey a:link, .c_grey a:visited
+{
+    color: #666666;
+    text-decoration: none;
+}
+.c_grey a:hover
+{
+    text-decoration: underline;
+    color: #666666;
+}
+/*黑色*/
+.c_black
+{
+    color: #000000;
+}
+.c_black a:link, .c_black a:visited
+{
+    color: #000000;
+    text-decoration: none;
+}
+.c_black a:hover
+{
+    text-decoration: underline;
+    color: #000000;
+}
+/*白色*/
+.c_white
+{
+    color: #FFFFFF;
+}
+.c_white a:link, .c_white a:visited
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.c_white a:hover
+{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+/*红色*/
+.c_red
+{
+    color: #FF0000;
+}
+.c_red a:link, .c_red a:visited
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+.c_red a:hover
+{
+    text-decoration: underline;
+    color: #FF0000;
+}
+/*浅蓝色*/
+.c_blue
+{
+    color: #0893BE;
+}
+.c_blue a:link, .c_blue a:visited
+{
+    color: #0893BE;
+    text-decoration: none;
+}
+.c_blue a:hover
+{
+    text-decoration: underline;
+    color: #0893BE;
+}
+.page
+{
+    width: 100%;
+    text-align:center;
+    margin:20px 0px 15px 0px;
+}
+.page .c1
+{
+    width: 30px;
+    height:30px;
+    margin: 0px 4px;
+    padding: 5px 10px;
+    background-color:#037DA2;
+    border: 1px solid #ddd;
+    line-height: 14px;
+    color:#ffffff;
+    cursor:pointer;
+}
+.page .a1
+{
+    width: 30px;
+    height:30px;
+    margin: 0px 4px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 14px;
+    cursor:pointer;
+}
+.page .a1:hover
+{
+    border: 1px solid #A8A8A8;
+}
+.page a,a:hover
+{
+    text-decoration:none;
+    color:#666;
+}
+/*通用*/
+.one250
+{
+    width:250px;
+}
+.one250 .title
+{
+   width:240px;/*250px*/
+   height:35px;
+   background:url(../images/one250_title.gif) no-repeat;
+   line-height:35px;
+   color:#666666;
+   font-size:14px;
+   font-weight:bolder;
+   padding-left:10px;
+}
+.one250 .content
+{
+   width:230px;/*250px*/
+   background:url(../images/one250_contentbg.gif) repeat-y;
+   padding:5px 10px;
+   line-height:20px;
+}
+.one250 .bottom
+{
+   width:250px;
+   height:1px;
+   background:url(../images/one250_bottom.gif) no-repeat;
+}
+.ad250
+{
+   width:250px;
+   overflow:hidden;
+}
+/* TOP */
+#top
+{
+    width: 1200px;
+    height:125px;
+    margin: auto;
+}
+#top .l
+{
+    float: left;
+    width: 450px;
+    height:25px;
+    line-height: 23px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+#top .r
+{
+    float: right;
+    text-align: right;
+    width: 400px;
+    height:25px;
+    line-height: 23px;
+    font-size: 10px;
+}
+#top .logo
+{
+    float:left;
+    width:255px;
+    height:55px;
+    vertical-align:middle;
+}
+#top .search
+{
+    float:left;
+    width:500px;
+    height:55px;
+    margin:20px 30px 0px 50px;
+}
+#top .attent
+{
+    float:right;
+    height:100px;
+}
+#top .attent a
+{
+    height: 30px;
+    width: 80px;
+    overflow: hidden;
+    line-height: 30px;
+    background: #0B94BF;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    font-weight:bolder;
+    display:inline-block;
+}
+
+/* Menu */
+#menubar
+{
+	width:1200px;
+	height:40px;
+    line-height:40px;
+    margin: auto;
+}
+#menubar ul.menu li
+{
+	list-style: none; 
+	float:left;
+	font-size:16px;
+    width:120px;
+    height:40px;
+    text-align:center;
+}
+#menubar ul.menu li a 
+{
+    color:#FFFFFF; 
+    text-decoration:none; 
+	width:120px;
+	height:40px;
+    line-height:40px; 
+    display:block;
+    position: relative;
+}
+#menubar ul.menu li i.new {
+    display: inline-block;
+    width: 26px;
+    height: 17px;
+    background: url(../images/icon_new.gif) no-repeat 0 0;
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    overflow: hidden;
+    font-size: 0;
+    cursor: pointer;
+}
+#menubar ul.menu li i.hot {
+    display: inline-block;
+    width: 26px;
+    height: 17px;
+    background: url(../images/icon_hot.gif) no-repeat 0 0;
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    overflow: hidden;
+    font-size: 0;
+    cursor: pointer;
+}
+#menubar .children ul
+{
+    width:120px;
+    display:none; 
+    position:relative;
+    top:0px;
+	left:0px;
+    z-index:99999;
+}
+#menubar .children ul li
+{
+	font-size:12px;
+    font-weight:normal;
+    text-align:left;
+}
+#menubar .children ul li a 
+{
+    color:#FFFFFF; 
+    text-decoration:none; 
+    line-height:40px; 
+    display:block;
+    width:118px;
+	height:40px;
+    background-color:#0B94BF;
+    border-top:1px solid #ffffff;
+    border-left:1px solid #ffffff;
+    text-align:center;
+}
+#menubar ul li a:hover 
+{
+    background-color:#047DA3;
+}
+#menubar .current
+{
+	float:left;
+	font-size:14px;
+    width:120px;
+    height:40px;
+    text-align:center;
+    background-color:#047DA3;
+    font-weight:bolder;
+}

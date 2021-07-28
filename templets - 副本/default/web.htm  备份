@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/list.php?tid={dede:field.id/}";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<html lang="cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:global.cfg_description/}">
+	<meta name="description" content="{dede:global.cfg_keywords/}">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<script charset="utf-8" src="/templets/default/css/lxb.js"></script>
+<script charset="utf-8" src="/templets/default/css/v.js"></script>
+<script src="/templets/default/css/hm.js"></script>
+<script type="text/javascript" defer="" async="" src="/templets/default/css/81b1085b146b01f5.js"></script>
+<script src="/templets/default/css/jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/templets/default/css/wzjs.css">
+<link rel="stylesheet" type="text/css" href="/templets/default/css/header.css">
+<script>
+	function scrollTo(id) {
+		if(id=="wzjs")
+			$('body,html').animate({ scrollTop: 0 }, 200);
+		else
+			$("html,body").animate({
+				scrollTop : $("#" + id).offset().top
+			}, 300);
+	}
+
+	$(function() {
+		var url = "{dede:global.cfg_baidu/}";
+		$(".zixun").click(function() {
+			window.open(url);
+		});
+		$(".part3").click(function() {
+			window.open(url);
+		});
+		
+		// 案例图片放大
+		$(".anli .part2 div").hover(function() {
+			$(this).find(".itemimg").stop().animate({
+				"width" : 340,
+				"width" : 350
+			});
+		}, function() {
+			$(this).find(".itemimg").stop().animate({
+				"width" : 350,
+				"width" : 340
+			});
+		});
+		
+		// 头部滚动
+		var m = true;
+		$(".top .meau ul li").mouseenter(function() {
+			$(this).stop().animate({"top":"-80"},300);
+		});
+		
+		$(".top .meau ul li").hover(function() {
+		},function(){
+			$(this).first().stop().animate({"top":"0"},300);
+		});
+		
+		//右侧栏
+		$(".side ul li").hover(function() {
+				var wh=135;
+				var rd=0;
+				if($(this).index()==2)
+					wh=60;
+				if($(this).index()==3)
+					wh=170;
+				else if($(this).index()==4)
+					wh=157;
+				$(this).find(".sidebox").stop().animate({
+					"width" : wh
+				}, 50).css({
+					"opacity" : "1",
+					"filter" : "Alpha(opacity=100)",
+					"background-color" : "#0099E6",
+					"border-radius" : "0 0 0 0"
+				})
+			}, function() {
+				var rd=$(this).index()==5?25:0;
+				$(this).find(".sidebox").stop().animate({
+					"width" : "60px"
+				}, 50).css({
+					"opacity" : "0.8",
+					"filter" : "Alpha(opacity=80)",
+					"background-color" : "#4D4D4D",
+					"border-radius" : "0 0 0 "+rd+"px"
+			});
+		});
+	});
+
+	//回到顶部
+	function goTop(){
+		$('html,body').animate({'scrollTop':0},600);
+	}
+</script>
+</head>
+<body>
+	<div id="wzjs">
+		<div class="top">
+			<div class="box">
+				<div class="logo">
+					<a href="/"><img src="/templets/default/css/wj_logo.png"></a>
+				</div>
+				<div class="meau">
+					<ul>
+						<li class="act">
+							<a href="javascript:scrollTo(&#39;wzjs&#39;)">
+							<div>首页</div>
+							<div>首页</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:scrollTo(&#39;youshi&#39;)">
+							<div>建站优势</div>
+							<div>建站优势</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:scrollTo(&#39;anli&#39;)">
+							<div>案例欣赏</div>
+							<div>案例欣赏</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:scrollTo(&#39;wendang&#39;)">
+							<div>帮助文档</div>
+							<div>帮助文档</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:scrollTo(&#39;kehu&#39;)">
+							<div>合作客户</div>
+							<div>合作客户</div>
+							</a>
+						</li>
+						<li class="last">
+							<a href="javascript:scrollTo(&#39;lianxi&#39;)">
+							<div>联系我们</div>
+							<div>联系我们</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="box">
+				<div class="left"></div>
+				<div class="right">
+					<div class="title">为企业所想 满足企业需求</div>
+					<div class="subtitle">升级以您的需求为导向，提升以您的价值为目标</div>
+					<div class="zixun">我要建站</div>
+				</div>
+			</div>
+		</div>
+		<div class="youshi" id="youshi">
+			<div class="box">
+				<div class="part1">
+					<div class="title">网站建设优势</div>
+					<div class="desc">Platform advantage</div>
+				</div>
+				<div class="part2">
+					<div class="item1">
+						<div class="title">专业体系</div>
+						<div class="desc">
+							标准化设计开发测试流程<br>保证每一个环节的质量
+						</div>
+					</div>
+					<div class="item2">
+						<div class="title">快速建站</div>
+						<div class="desc">
+							打破传统网站制作工时<br>网站制作快只需1天
+						</div>
+					</div>
+					<div class="item3">
+						<div class="title">多合一终端使用</div>
+						<div class="desc">
+							一个网站能够在PC+平板+<br>手机完美相应展示
+						</div>
+					</div>
+					<div class="item4">
+						<div class="title">大数据</div>
+						<div class="desc">
+							升级更新数据保留，企业数据<br>沉淀实现数据分析。
+						</div>
+					</div>
+					<div class="item5">
+						<div class="title">高端设计</div>
+						<div class="desc">
+							主流设计风格，极致交互<br>体验，提升品牌价值
+						</div>
+					</div>
+					<div class="item6">
+						<div class="title">安全稳定</div>
+						<div class="desc">
+							平台运行于阿里云计算中心<br>多备份容灾保障，安全稳定
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="anli" id="anli">
+			<div class="box">
+				<div class="part1">
+					<div class="title">案例欣赏</div>
+					<div class="desc">Case appreciation</div>
+				</div>
+				<div class="part2">
+					<div class="item1">
+						<div class="itemimg"></div>
+						<div class="anlidesc">
+							<div class="title">
+								<div class="hengxian"></div>
+								时尚家具用品网站建设
+							</div>
+							<div class="desc">各类家具用品展示及详情分析</div>
+						</div>
+					</div>
+					<div class="item2">
+						<div class="itemimg"></div>
+						<div class="anlidesc">
+							<div class="title">
+								<div class="hengxian"></div>
+								高端定制企业网站建设
+							</div>
+							<div class="desc">专业设计团队、技术团队为您量身打造</div>
+						</div>
+					</div>
+					<div class="item3">
+						<div class="itemimg"></div>
+						<div class="anlidesc">
+							<div class="title">
+								<div class="hengxian"></div>
+								欧美风格企业网站建设
+							</div>
+							<div class="desc">倡导简约视觉设计</div>
+						</div>
+					</div>
+				</div>
+				<div class="part3">MORE</div>
+			</div>
+		</div>
+		<div class="wendang" id="wendang">
+			<div class="box">
+				<div class="part1">
+					<div class="title">帮助文档</div>
+					<div class="desc">Help document</div>
+				</div>
+				<div class="part2">
+					<div class="item">
+						<div class="num1"></div>
+						<div class="prog">网站安装成功后，全部内页无法打开，显示404是什么问题？</div>
+						<div class="lanxian"></div>
+						<div class="prog-desc">网站安装成功后，全部内页无法打开，显示404是什么问题？这是您的空间不支持伪静态，请进入后台...</div>
+					</div>
+					<div class="item">
+						<div class="num2"></div>
+						<div class="prog">后台上传图片时显示“非法图像文件”</div>
+						<div class="lanxian"></div>
+						<div class="prog-desc">后台上传图片时显示“非法图像文件”是什么问题？服务器的上传临时文件目录应该没有权限...</div>
+					</div>
+					<div class="item">
+						<div class="num3"></div>
+						<div class="prog">网站搬家具体如何操作？</div>
+						<div class="lanxian"></div>
+						<div class="prog-desc">网站搬家具体如何操作？PHP网站一般都可以按照以下方法进行网站搬家：1.登录你的空间的FTP把文件全部下载下来...</div>
+					</div>
+				</div>
+				<div class="part3">MORE</div>
+			</div>
+		</div>
+		<div class="kehu" id="kehu">
+			<div class="box">
+				<div class="part1">
+					<div class="title">合作客户</div>
+					<div class="desc">Cooperative customer</div>
+				</div>
+				<div class="part2">
+					<div class="item1"></div>
+					<div class="item2"></div>
+					<div class="item3"></div>
+					<div class="item4"></div>
+					<div class="item5"></div>
+					<div class="item6"></div>
+					<div class="item7"></div>
+					<div class="item8"></div>
+				</div>
+			</div>
+		</div>
+		<div class="lianxi" id="lianxi">
+			<div class="part1">
+				<div class="title">联系我们</div>
+				<div class="desc">Contact us</div>
+			</div>
+			<div class="part2">手机：182-6203-5179</div>
+			<div class="part4">
+				<div class="item item1">
+					<div class="title">河南达丰财务管理有限公司</div>
+					<div>郑州干将西路1381号三元大厦A座3楼</div>
+				</div>
+				<div class="hengxian"></div>
+				<a href="tel:182-6019-7877">
+					<div class="item item2">
+						<div class="title">182-6019-7877</div>
+						<div>周一至周日 9:00-21:00</div>
+					</div>
+				</a>
+			  <div class="hengxian"></div>
+				<a href="{dede:global.cfg_baidu/}" target="_blank">
+					<div class="item item3">
+						<div class="title">{dede:global.cfg_qq/}</div>
+						<div>周一至周日 9:00-21:00</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+<!-- 侧边栏 -->
+<div class="side">
+	<ul>
+		<li><div onClick="goTop()" class="sidetop side1"></div></li>
+		<li><a href="{dede:global.cfg_baidu/}" target="_blank"><div class="sidebox side2"><span>客服中心</span></div></a></li>
+		<li class="sider_h"><a><div class="sidebox side3"></div></a><img src="/templets/default/css/sider_2wm.png" class="sider_2wm"></li>
+		<li><a href="javascript:void(0);"><div class="sidebox side4"><span>182-6019-7877</span></div></a></li>
+		<li><a href="{dede:global.cfg_baidu/}" target="_blank"><div class="sidebox side5">
+					<span>{dede:global.cfg_qq/}</span></div></a></li>
+		<li><a href="{dede:global.cfg_baidu/}" target="_blank"><div class="sidebox side6"><span>投诉建议</span></div></a></li>
+	</ul>
+</div>
+<script type="text/javascript" src="/templets/default/css/69322.js"></script>
+<script language="javascript" src="/templets/default/css/LsJS.aspx"></script><iframe name="272759" height="0" width="0" src="/templets/default/css/mv.html" style="display: none;"></iframe><link href="/templets/default/css/JS5.css" rel="stylesheet" type="text/css"><div id="LRdiv0" style="display:none;"></div><div id="LRdiv1" style="display:none;"></div>
+<script type="text/javascript" charset="utf-8" async="" src="/templets/default/css/lxb.js"></script>
+
+
+</body></html>

@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+/* 工商服务修改->公司变更 */
+.gsbg-title{margin:0 auto; padding:50px 0 30px; text-align:center; }
+.gsbg-title i{display: inline-block;width: 100px;height: 8px;background: url(/templets/default/css/line.jpg) no-repeat center top;vertical-align: middle;}
+.gsbg-title label{margin: 0 20px; font-size: 30px; font-weight: normal;}
+.gsbg-title p{font-size:18px; margin-top:10px; }
+.gsbg_m00{text-align: center; background:#F5F5F5; height:910px; }
+.gsbg_m00 .gsbg_m00-box{width:1180px; margin:0 auto; }
+.gsbg_m00 .gsbg_m00-box .gsbg_m00-bgitem{width:380px; height:100px; padding-top:150px; float:left; margin-left:20px; box-shadow:0 0 10px 1px rgba(204,204,204,.1); text-align:center;}
+.gsbg_m00 .gsbg_m00-box .gsbg_m00-bgitem:hover{transform:scale(1.03); box-shadow:0 0 20px 1px rgba(204,204,204,.7);}
+.gsbg_m00 .gsbg_m00-box .bgitem-title{font-size:20px; }
+.gsbg_m00 .gsbg_m00-box .bgitem-desc{font-size:16px; color:#8e8e8e; margin-top:5px; }
+.gsbg_m00 .gsbg_m00-box .bg1{margin-left:0; background:#fff url(/templets/default/css/gsbg_jyfw.png) no-repeat center 50px; }
+.gsbg_m00 .gsbg_m00-box .bg2{background:#fff url(/templets/default/css/gsbg_dz.png) no-repeat center 50px; }
+.gsbg_m00 .gsbg_m00-box .bg3{background:#fff url(/templets/default/css/gsbg_gd.png) no-repeat center 50px; }
+.gsbg_m00 .gsbg_m00-box .bg4{margin-left:0; margin-top:30px; background:#fff url(/templets/default/css/gsbg_fr.png) no-repeat center 50px; }
+.gsbg_m00 .gsbg_m00-box .bg5{margin-top:30px; background:#fff url(/templets/default/css/gsbg_mc.png) no-repeat center 50px; }
+.gsbg_m00 .gsbg_m00-box .bg6{margin-top:30px; background:#fff url(/templets/default/css/gsbg_zczj.png) no-repeat center 50px; }
+.gsbg_m00 .zixun-desc{color:#0099e5; padding:48px 0 20px; }
+.gsbg_m00 .zixun{width:400px; height:60px; margin:0 auto; line-height:60px; background:#0099E6; color:#fff; }
+.gsbg_m01{width:100%; height:655px; color:#fff; background:url(/templets/default/css/gsbg_fengxian_bg.jpg) no-repeat center; }
+.gsbg_m01 .gsbg-title p{color:#c9c9c9; }
+.gsbg_m01 .fx-box{width:1200px; margin:0 auto; }
+.gsbg_m01 .gsbg_m01-fxitem{width:490px; margin:25px auto 35px; padding-left:110px; float:left; }
+.gsbg_m01 .gsbg_m01-fxitem .buzhou{font-size:48px; }
+.gsbg_m01 .gsbg_m01-fxitem .fx-title{font-size:24px; }
+.gsbg_m01 .gsbg_m01-fxitem .fx-subtitle{font-size:16px; margin-top:10px; }
+.gsbg_m01 .fx1{background:url(/templets/default/css/gsbg_fakuan.png) no-repeat 75px bottom; width:450px; padding-left:150px; }
+.gsbg_m01 .fx2{background:url(/templets/default/css/gsbg_baisu.png) no-repeat 30px bottom;}
+.gsbg_m01 .fx3{background:url(/templets/default/css/gsbg_diaoxiao.png) no-repeat 65px 85px; width:450px; padding-left:150px; }
+.gsbg_m01 .fx4{background:url(/templets/default/css/gsbg_shouzhai.png) no-repeat 38px bottom;}
+.gsbg_m02{height:480px;}
+.gsbg_m02 .gsbg-title{padding-bottom:50px; }
+.gsbg_m02 .gsbg_m02-buzhou{width:1070px; margin:0 auto;}
+.gsbg_m02 .gsbg_m02-buzhou ul li{width:214px; float:left; text-align:center; padding-top:125px; }
+.gsbg_m02 .gsbg_m02-buzhou ul li .lc-title{font-size:18px; }
+.gsbg_m02 .gsbg_m02-buzhou ul li .lc-buzhou{font-size:24px; color:#0099e6; margin-top:15px; }
+.gsbg_m02 .gsbg_m02-buzhou ul li.li1{background:url(/templets/default/css/gsbg_lc1.png) no-repeat center top;}
+.gsbg_m02 .gsbg_m02-buzhou ul li.li2{background:url(/templets/default/css/gsbg_lc2.png) no-repeat center top;}
+.gsbg_m02 .gsbg_m02-buzhou ul li.li3{background:url(/templets/default/css/gsbg_lc3.png) no-repeat center top;}
+.gsbg_m02 .gsbg_m02-buzhou ul li.li4{background:url(/templets/default/css/gsbg_lc4.png) no-repeat center top;}
+.gsbg_m02 .gsbg_m02-buzhou ul li.li5{background:url(/templets/default/css/gsbg_lc5.png) no-repeat center top;}
+.gsbg_m03{width:100%; background:#F5F5F5;}
+.gsbg_m03 .gsbg_m03-box{width:1200px; height:605px; margin:0 auto; text-align:center; }
+.gsbg_m03 ul li{width:280px; height:60px; margin:0 10px; float:left; padding-top:200px; }
+.gsbg_m03 ul li span{font-size:18px; height:60px; line-height:60px; }
+.gsbg_m03 ul li.li1{background:#fff url(/templets/default/css/gsbg_sfz.jpg) no-repeat center top; }
+.gsbg_m03 ul li.li2{background:#fff url(/templets/default/css/gsbg_yyzz.jpg) no-repeat center top; }
+.gsbg_m03 ul li.li3{background:#fff url(/templets/default/css/gsbg_gz.jpg) no-repeat center top; }
+.gsbg_m03 ul li.li4{background:#fff url(/templets/default/css/gsbg_qt.jpg) no-repeat center top; }
+.gsbg_m03 .zixun{width:400px; height:60px; margin:55px auto 0; line-height:60px; background:#0099E6; color:#fff; }

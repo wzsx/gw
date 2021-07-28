@@ -1,0 +1,6 @@
+{dede:charset}utf-8{/dede:charset}{dede:list}http://xin.kuaiqitong.com/c/1/{/dede:list}{dede:page}http://xin.kuaiqitong.com/plus/view.php?aid=(*){/dede:page}{dede:titlerule} <h3>[内容]</h3>
+{/dede:titlerule}{dede:authorrule}达丰财务{/dede:authorrule}{dede:sourcerule}整理自网络{/dede:sourcerule}{dede:bodyrule}热度：<script src="/plus/count.php?view=yes&aid=190&mid=1" type='text/javascript' language="javascript"></script></font></p>
+[内容]<!-- 版权 -->
+
+
+{/dede:bodyrule}{dede:fyrule}{/dede:fyrule}

@@ -1,0 +1,1 @@
+{dede:charset}utf-8{/dede:charset}{dede:list}http://www.baitong666.com/faq/list_4_[1-12].html{/dede:list}{dede:page}{/dede:page}{dede:titlerule}<h1>[内容]</h1>{/dede:titlerule}{dede:authorrule}达丰财务{/dede:authorrule}{dede:sourcerule}整理自网络{/dede:sourcerule}{dede:bodyrule}<div id="articlecontent">[内容] <div class="dede_pages">{/dede:bodyrule}{dede:fyrule}{/dede:fyrule}

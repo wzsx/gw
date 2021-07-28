@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/**/
+.ApplyBox{ background-color:#eeeeee; height:520px;}
+.left1{ margin-right:20px;}
+.left1,.right1{ width:310px; height:448px; border:1px solid #dcdcdc; background-color:white; float:left; margin-top:50px; box-shadow:0 5px 3px #c9c9c9; padding:0 20px;}
+.left1 h1,.right1 h1{ font-size:28px; color:#666; text-align:center; margin-top:38px;}
+.left1 h4,.right1 h4{ font-size:18px; color:#666; text-align:center; margin-top:12px;}
+.left1 img,.right1 img{ margin:25px auto 0 auto; display:block;}
+.left1 .text1{ font-size:14px; color:#333; margin-top:50px; text-align:center;}
+.left1 .text2{ font-size:14px; color:#999; text-align:center; margin-top:20px;}
+.left1 .text3{ font-size:14px; color:#999; text-align:center;}
+
+.left1 .understand{ width:172px; height:38px; text-align:center;  background-color:#FFFFFF;  border:1px solid #00a0e9; display:block; margin:40px auto 0 auto;  color:#00a0e9;border-radius:6px;line-height:38px;}
+.right1 .text1{ font-size:14px; color:#333; margin-top:28px; text-align:center;}
+.right1 .text2{ font-size:14px; color:#999; text-align:center;}
+.right1 .understand{ width:172px; height:38px; line-height:38px; text-align:center; background-color:#FFFFFF;  border:1px solid #00a0e9; display:block; margin:24px auto 0 auto; color:#00a0e9;border-radius:6px;}
+
+.understand:hover{background-color:#00a0e9;color:#FFFFFF;border:0;}
+
+/*公用*/
+.none {display:none;}
+.bgStyle01b {  background-image:url(../images/partent_intl_02.jpg); background-position: center; }
+.searchIcon1{ width:500px; margin:0 auto;}
+.icoPct{ background-image:url(../images/logo1.png); background-repeat:no-repeat; display:inline-block; width:138px;  padding-top:70px; padding-bottom:20px; text-align:center; background-position:top center; margin-top:40px; margin-right:218px; color:#bd8c23; display:inline-block;}
+.icoBali{ background-image:url(../images/logo2.png); background-repeat:no-repeat; display:inline-block; width:138px;  padding-top:70px;padding-bottom:20px;text-align:center;background-position:top center; margin-top:40px;color:#bd8c23; display:inline-block;}
+.icoPct:hover{ color:white; background-color:#bd8c23; background-image:url(../images/logo4.png);}
+.icoBali:hover{ color:white; background-color:#bd8c23; background-image:url(../images/logo3.png);}
+ .searchBoard {height: 400px;padding-top: 110px;}
+	  .searchBoard form{width:900px; height: 360px; margin: 0 auto;}
+	  .searchBoard .searchForm{width:800px;padding: 0px 50px; position: absolute;z-index: 99;}
+	  .searchBoard .searchInput{width: 800px; height:50px;}
+	  .searchBoard label{font-size: 34px;color: #cc6600;display: block; width: 800px; text-align: center;line-height: 90px;font-weight: bold;}
+	  .searchBoard .input{width: 556px; height: 20px; /*width: 580px; height: 50px; */ border: 0px; /*border: 1px solid #999;*/font-size: 16px;color: #444;/*line-height: 20;*/padding: 15px 12px;  text-align: left;display: block;background-image: url(../images/bgSearchInput01.png);background-position: left center;float: left;}
+	  .searchBoard .submit{width: 220px;height: 50px;padding-left: 64px; border: 0px;background-color: #ff6600; color: #FFF;cursor: pointer;background-image:url(../images/icoSearchBtn24x01.png);background-position:30px center;background-repeat: no-repeat; font-size: 18px;line-height: 49px;text-align: left;float: left;display: block;  }
+
+
+
+	  .searchBoard .bkForm{height: 300px; width: 900px; position: absolute; background-color: white; opacity: 0.50;-moz-opacity: 0.50;filter: alpha(opacity=50);	z-index: 2;}
+	  
+	  
+.patentProc{ height:390px;}
+.bgStyle03 { background-image:url(../images/bg1.png);}
+	.h2{ height:80px; padding-top:60px;padding-bottom: 20px;  font-size: 36px; line-height: 40px; background-image: url(../images/bgPgTitleBotLine.png); background-repeat: no-repeat;	background-position: center 110px;	color: #39c;	text-align: center;	font-weight: normal; padding-top: 40px;}
+	.h2 em{ font-size: 16px;line-height: 20px; display: block; font-style: normal;      }
+	
+/**/
+.competition{ background-color:#eeeeee; height:520px;}
+.details{width:172px; height:38px; text-align:center;  display:block; margin:20px auto 0 auto;border-radius:6px;line-height:38px;color:#00a0e9; border:1px solid #00a0e9;}
+.details:hover{background-color:#00a0e9; border:0;color:#FFFFFF;}
+.competition div{ height:330px; width:260px; border:1px solid #CCCCCC; background-color:white; float:left; margin-right:17px; box-shadow:0 5px 3px #c9c9c9;}
+#last{ margin:0;}
+.competition div img{ margin:32px auto 0 auto; display:block;}
+.competition div h1{ color:#3399cc; font-size:24px; text-align:center; margin-top:30px;}
+.competition div .wen{ color:#333; font-size:14px; text-align:center; margin-top:30px;}
+.competition div .zi{ color:#999; font-size:14px; text-align:center;}
+
+
+.Approval{ background-image:url(../images/bg2.png); height:600px;}
+.Approval .top{ padding-top:20px; padding-bottom:1px;}
+.Approval .bg{ background-image:url(../images/bgPgTitleBotLine02.png); background-repeat:no-repeat; background-position:bottom;}
+.Approval .top h1{ font-size:36px; color:#3399cc;}
+.Approval .top p{ line-height:30px; color:white; font-size:16px; background-color:#3399cc; width:350px;}
+.Approval .side{ width:600px; height:420px; margin-top:40px; display:inline-block;}
+.Approval .side li{ float:left;}
+.Approval .photo1{ background-image:url(../images/patentG10.png); width:170px; height:134px; margin:0 10px 10px 0;}
+.Approval .photo2{ background-image:url(../images/patentG07.png);width:170px; height:134px;margin:0 10px 10px 0;}
+.Approval .photo3{ background-image:url(../images/patentG02.png);width:170px; height:134px;margin:0 0 10px 0;}
+.Approval .photo4{ background-image:url(../images/patentG03.png);width:170px; height:134px; margin:0 10px 10px 0;}
+.Approval .photo5{ background-image:url(../images/patentG04.png);width:170px; height:134px; margin:0 10px 10px 0;}
+.Approval .photo6{ background-image:url(../images/patentG06.png);width:170px; height:134px; margin:0 0 10px 0;}
+.Approval .photo7{ background-image:url(../images/patentG01.png);width:170px; height:134px; margin:0 10px 0 0;}
+.Approval .photo8{ background-image:url(../images/patentG05.png);width:170px; height:134px; margin:0 10px 0 0;}
+.Approval .photo9{ background-image:url(../images/patentG08.png);width:170px; height:134px;}
+.Approval .side li:hover{opacity: 0.70;-moz-opacity: 0.70;	filter: alpha(opacity=70);}
+.Approval .contant{ width:400px; display:inline-block; vertical-align:top; margin-top:42px; margin-left:80px;}
+.Approval .top2 h1{ font-size:24px; color:#3399cc; text-align:left; margin-bottom:20px;}
+.Approval .paragraph1{ font-size:30px; color:#332626; text-align:left; margin-bottom:24px; font-weight:bold;}
+.Approval .paragraph2,.paragraph3{ font-size:16px; color:#666; text-align:left; margin-bottom:8px; font-weight:bold;}
+.Approval .top2 span{ color:#3399cc;}
+
+.Approval .bottom h1{ font-size:24px; color:#3399cc; margin-top:60px; text-align:left; margin-bottom:18px;}
+.Approval .bottom p{ font-size:16px; color:#333; font-weight:600;}
+
+.Approval .contant .details{ margin:60px 0 0 0; background-color:#00a0e9; border:0; color:#FFF;}
+.Approval .contant .details:hover{ background-color:#ff9900;}
+
+
+.services{ height:360px; background-image:url(../images/bg3.png);}
+.weiquan{cursor: pointer; background-image:url(../images/logo9.png); width:150px;height:50px;background-repeat:no-repeat; border:2px solid #c9c9c9; text-align:center; padding-top:100px; background-position:center 30px; border-radius:150px; color:#3399cc; display:inline-block; margin-right:22px; background-color:white;}
+.xuangao{cursor: pointer; background-image:url(../images/logo10.png); width:150px;height:50px;background-repeat:no-repeat; border:2px solid #c9c9c9; text-align:center; padding-top:100px;  background-position:center 30px; border-radius:150px; color:#3399cc; display:inline-block;margin-right:22px;background-color:white;}
+.dabian{cursor: pointer; background-image:url(../images/logo11.png); width:150px;height:50px;background-repeat:no-repeat; border:2px solid #c9c9c9; text-align:center; padding-top:100px;; background-position:center 30px; border-radius:150px; color:#3399cc; display:inline-block;margin-right:22px;background-color:white;}
+.biangeng{cursor: pointer; background-image:url(../images/logo12.png); width:150px;height:50px;background-repeat:no-repeat; border:2px solid #c9c9c9; text-align:center; padding-top:100px;  background-position:center 30px; border-radius:150px; color:#3399cc; display:inline-block;margin-right:22px;background-color:white;}
+.fushen{cursor: pointer; background-image:url(../images/logo13.png); width:150px;height:50px;background-repeat:no-repeat; border:2px solid #c9c9c9; text-align:center; padding-top:100px;  background-position:center 30px; border-radius:150px; color:#3399cc; display:inline-block;margin-right:22px;background-color:white;}
+.daijiao{cursor: pointer; background-image:url(../images/logo14.png); width:150px;height:50px;background-repeat:no-repeat; border:2px solid #c9c9c9; text-align:center; padding-top:100px;  background-position:center 30px; border-radius:150px; color:#3399cc; display:inline-block;margin-right:22px;background-color:white;}
+.weiquan:hover{ background-image:url(../images/logo15.png); border:#ff9900 2px solid; color:#ff9900;}
+.xuangao:hover{ background-image:url(../images/logo16.png); border:#ff9900 2px solid; color:#ff9900; }
+.dabian:hover{ background-image:url(../images/logo17.png); border:#ff9900 2px solid; color:#ff9900;}
+.biangeng:hover{ background-image:url(../images/logo18.png); border:#ff9900 2px solid; color:#ff9900;}
+.fushen:hover{ background-image:url(../images/logo19.png); border:#ff9900 2px solid; color:#ff9900;}
+.daijiao:hover{ background-image:url(../images/logo20.png); border:#ff9900 2px solid; color:#ff9900;}
+
+
+
+/*公司简介*/
+.bgStyle21{  background-image:url(../images/banner1.png); background-position: center bottom; background-repeat: no-repeat; }
+.banner{ height:360px; width:1920px;}
+.banner img{ width:1920px;  height:360px;}
+.introducesTop{ width:100%; border-bottom: solid 1px #3399cc; margin-top:120px;}
+.introducesTop h1{ font-size:24px; color:white; background-color:#3399cc; width:260px; display:inline-block; text-align:center;}
+.introducesTop p{ font-size:16px; color:#3399cc; display:inline-block}
+.introducesBottom{ width:100%; height:880px; margin-top:40px; background-image:url(../images/jianjie1.png); background-repeat:no-repeat; background-position:left top; }
+.yiny{background-image: url(../images/bgContact02.png); background-repeat: no-repeat; background-position: right bottom; min-height: 460px; padding-bottom:350px;}
+.introducesBottom P{ width:680px; float:right; margin-right:46px; line-height:34px; font-size:14px; color:#666;}
+.introducesBottom span{ color:#3399cc; font-size:18px;}
+
+
+.zixun .zixun1_biaoti a{ color:#333;}
+.zixun .zixun1_biaoti a:hover{ color:#3399cc;}
+
+
+/*新闻详情页*/
+ .titlebox{text-align: center;
+		   font-size: 24px;
+		   margin-top: 100px}
+ .titlebox1{border-bottom: 1px dashed #CCC;}
+ .titlebox2{font-size: 14px;
+				 text-align: center;
+				 padding: 15px 0px;}
+.tupian img{ display:block; margin:30px 0 30px 150px;}
+.xqtext{ line-height:28px; width:700px; margin-left:70px; margin-top:30px;}
+.xqbottom{ width:1000px; height:30px; border:1px #999 dashed; margin:30px auto; clear:both;}
+.xqbottom p{ float:left; margin:8px 0 0 8px;}
+.xqbottom div{ float:right; margin-top:2px;}
+.clear_box{ width:960px; margin:0 auto 20px auto;}
+.clear_box a:hover{ color:#3399cc;}
+.list_box1{ margin-right:200px; color:#666;}
+.list_box2{ color:#666;}
+.bgBotRt1{background-image: url(../images/bgContact02.png); background-repeat: no-repeat; background-position: right bottom;padding-bottom:120px;}
+.bgBotRt1 .zixun_news_box2{ float:right;margin:20px 20px 0 0; width:220px;}
+.bgBotRt1 .zixun_news_box2 li a{ color:#666; line-height:22px;border-bottom:1px solid #fff}
+.bgBotRt1 .zixun_news_box2 li{ float:left; clear:both; margin-bottom:10px;}
+.bgBotRt1 .zixun_news_box2 li a:hover{color:#26a1d0;border-bottom:1px solid #26a1d0}
+.bgBotRt1 .right_biaoti{height:22px; border-left:2px solid #3399cc; padding-left:10px; margin-bottom:20px;}
+.bgBotRt1 .right_biaoti div{font-size:16px; cursor:pointer;}
+.bgBotRt1 .xq_left{ width:700px; display:inline-block; border-right:1px solid #CCC; padding-right:100px;}

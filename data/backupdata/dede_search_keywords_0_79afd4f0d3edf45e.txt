@@ -1,0 +1,2 @@
+INSERT INTO `dede_search_keywords` VALUES('1','代理记账','代理记账','50','0','1553818387','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','as','as','16','0','1568961673','0','0');

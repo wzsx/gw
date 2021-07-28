@@ -1,0 +1,1 @@
+{dede:charset}utf-8{/dede:charset}{dede:list}http://www.zizhiguanjia.com/zs/pn[1-30]/{/dede:list}{dede:page}http://www.zizhiguanjia.com/zs/(*).html{/dede:page}{dede:titlerule}<h1>[内容]</h1>{/dede:titlerule}{dede:authorrule}{/dede:authorrule}{dede:sourcerule}{/dede:sourcerule}{dede:bodyrule}<!-- 文章内容 -->[内容]相关推荐：{/dede:bodyrule}{dede:fyrule}{/dede:fyrule}

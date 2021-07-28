@@ -1,0 +1,49 @@
+@charset "utf-8";
+*{margin:0px;padding:0px;}
+div,dl,dt,dd,ul,li,ol,h1,h2,h3,h4,h5,h6,pre,code,form,input,button,textarea,p,th,td{margin:0;padding:0;border:0; font-size: 100%; font-weight:normal;}
+ul,li{list-style: none;}
+i,b,em{font-style: normal;}
+a{text-decoration: none;color: blue;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.margin{margin: 0 auto;}
+body {font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,'Microsoft Yahei';font-weight: normal;margin: 0;min-width: 1200px;color: #333;}
+.ct{width: 1200px;margin: 0 auto;overflow: hidden;}
+.tl{text-align: left;}
+.tc{text-align: center;}
+.tr{text-align: right;}
+.b{font-weight: 700;}
+.cf{color: #fff;}
+.f16{font-size: 16px;}
+
+#m09{width: 100%;height: 540px;background: #252933;color: #fff;float: left;}
+#m09 .title{text-align: center;margin-top: 50px;}
+#m09 .title label{font-size: 26px;margin: 0 16px;}
+#m09 .title i{display: inline-block; width: 100px;height: 20px;background: url(../images/m09i.jpg) no-repeat center;}
+#m09 .title p{font-size: 16px;margin-top: 10px;}
+#m09 .content{margin-top: 20px;}
+#m09 .m09_l,.m09_r{width: 560px; text-align:left;}
+#m09 .ft{border-bottom:1px solid #454a56;line-height: 36px;color: #fff;}
+#m09 .ft label{font-size: 20px;}
+#m09 .ft span{color: #fff;}
+#m09 .ft .fr:hover{color: #0099e6;}
+#m09 .m09_l li:last-child{border-bottom: 0px;}
+#m09 .m09_l li{border-bottom:1px solid #454a56;line-height: 60px;}
+#m09 .m09_l li{border-bottom:1px solid #454a56;line-height: 60px;}
+#m09 .m09_l li{border-bottom:1px solid #454a56;line-height: 60px;}
+#m09 .m09_l li{border-bottom:1px solid #454a56;line-height: 60px;}
+#m09 .m09_l li{border-bottom:1px solid #454a56;line-height: 60px;}
+#m09 .m09_l li.on{line-height: 26px;}
+#m09 .m09_l li.on dt{line-height: 36px;margin-top: 10px;}
+#m09 .m09_l li.on dd{margin-bottom: 16px;color: #808080;}
+#m09 .m09_l li label{font-size: 18px;}
+#m09 .content a{color: #fff;}
+#m09 .content li:hover a{color: #0099e6;}
+#m09 .list_r{height: 300px;overflow: hidden;}
+#m09 .list_lh{height: 280px;margin-top: 10px;font-size: 16px;}
+#m09 .list_lh li{width: 560px; height: 56px;line-height: 56px;}
+#m09 .list_lh ul li i{display: inline-block;width: 15px;height: 10px;background: url(../images/m09_ri.png) no-repeat center left;}
+#m09 .list_lh .more{width: 100px;height: 30px;border: 1px solid #fff;line-height: 30px;text-align: center;font-size: 14px;margin-top: 13px;}
+#m09 .list_lh li:hover i{background: url(../images/m09_ri2.png) no-repeat center left;}
+#m09 .list_lh li:hover .more{width: 104px;height: 32px;border: 0px;background:#0099e6;color: #fff !important;line-height: 32px;}

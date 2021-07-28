@@ -1,0 +1,3 @@
+INSERT INTO `dede_kwcache` VALUES('2077','17','http://www.lvzheng.com/xiaoweishuo/biangeng_673.html');
+INSERT INTO `dede_kwcache` VALUES('2075','17','http://www.lvzheng.com/xiaoweishuo/guquanjzh.html');
+INSERT INTO `dede_kwcache` VALUES('2074','17','http://www.lvzheng.com/xiaoweishuo/zhizhao_0987.html');

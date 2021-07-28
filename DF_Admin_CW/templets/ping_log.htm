@@ -1,0 +1,58 @@
+{dede:config.pagesize value='20' /}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+	<title>织梦提升收录插件</title>
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+</head>
+<body background="images/allbg.gif" leftmargin="8" topmargin='8'>
+	<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+		<tr>
+			<td height="28" background="images/tbg.gif" colspan="7" style="padding-left:10px;"><b><a>织梦提升收录插件</a></b> - 推送记录</td>
+		</tr>
+		<tr align="center"  bgcolor="#FBFCE2" height="24"> 
+			<td width="8%">编号</td>
+			<td width="20%">标题</td>
+			<td width="20%">提交时间</td>
+			<td width="12%">ping状态</td>
+			<td width="12%">推送状态</td>
+		</tr>
+		
+		{dede:datalist}
+		<tr align="center" bgcolor="#FFFFFF" height="24" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';"> 
+			<td>{dede:field.aid /}</td>
+			<td>{dede:field.title/}</td>
+			<td class="uptime">{dede:field.uptime function="MyDate('Y-m-d H:i:s',@me)" /}</td>
+			<td class="status"><?php if( $fields['status']==1 ) echo "ping成功"; else echo "--"; ?></td>
+			<td class="tuistatus">
+				<?php 
+				if( $fields['tuistatus']==1 ) 
+					echo "推送成功"; 
+				elseif( $fields['tuistatus']==99 ) 
+					echo "数据格式错误"; 
+				elseif( $fields['tuistatus']==100 ) 
+					echo "未授权"; 
+				elseif( $fields['tuistatus']==101 ) 
+					echo "百度接口异常"; 
+				elseif( $fields['tuistatus']==102 ) 
+					echo "token错误"; 
+				elseif( $fields['tuistatus']==103 ) 
+					echo "网站不匹配"; 
+				elseif( $fields['tuistatus']==104 ) 
+					echo "网址有误"; 
+				else echo "--"; 
+				?>
+			</td>
+		</tr>
+		{/dede:datalist}
+		<tr align="center" bgcolor="#F9FCEF" height="24"> 
+			<td colspan="7">
+				{dede:pagelist listsize=5/}
+			</td>
+		</tr>
+	</table>
+	
+</body>
+</html>

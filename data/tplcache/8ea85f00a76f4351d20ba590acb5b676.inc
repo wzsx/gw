@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]" target="_blank" class="fl classname b">[field:typename/]</a></li>

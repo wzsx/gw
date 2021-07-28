@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global name='cfg_soft_lang'/}" />
+<title>{dede:global name='cfg_webname'/}_网站地图</title>
+<meta name="keywords" content="网站地图，网站map，sitemap" />
+<meta name="description" content="达丰财务网站地图，可以让您清晰了解网站的架构，方便查阅信息。郑州代理记账、公司注册、财务咨询、公司注销、公司变更、商标注册、税务筹划" />
+<link href="{dede:global name='cfg_templets_skin'/}/css/sitemap.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div>
+	<h1><a href="{dede:global name='cfg_basehost'/}" title="{dede:global name='cfg_webname'/}"><img src="http://www.kuaiqitong.com/templets/default/css/logo.jpg" alt="达丰财务"/></a> </h1>
+</div><!-- /header -->
+<div class="center">
+	<div>
+    <h1>达丰财务 网站地图</h1>
+   <span>
+   <a href="{dede:global.cfg_indexurl/}">返回首页</a>
+   <br />
+   </span>
+    </div>
+    ----------------------栏目列表----------------------
+    {dede:global name='maplist'/}
+    ----------------------文章列表----------------------
+<ul>
+{dede:arclist typeid='' orderby=’pubdate’ row='999999' titlelen=64}
+<li><a href="[field:arcurl/]">[field:title/]</a></li>
+{/dede:arclist}
+</ul>
+</div>
+<!-- //底部模板 -->
+<div class="footer center"> 
+{dede:global name='cfg_powerby'/}&nbsp;&nbsp;{dede:global name='cfg_beian'/}
+</div>
+</body>
+</html>

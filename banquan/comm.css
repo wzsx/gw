@@ -1,0 +1,315 @@
+﻿/*在线咨询、意见反馈、意见反馈弹层样式*/
+.main{
+    height: 0;
+    position: relative;
+}
+
+.main i{
+    display:inline-block;
+
+}
+.s-indexSidebar {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 1157px;
+    background: #fff;
+
+}
+.s-sidebarFix {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    background: #fff;
+}
+.s-sidebarContact {
+    padding-bottom: 20px;
+}
+
+
+.s-sidebarContact a
+{
+    display: block;
+    padding: 5px 0;
+    background: #fd7e29;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1px;
+    outline: none;
+}
+.sfl-96 {
+    width: 30px;
+    height: 27px;
+    background-image: url(../images/import-comm.png);
+    background-position: -920px -29px;
+    margin-bottom: 2px;
+}
+.sfl-139 {
+    width: 27px;
+    height: 24px;
+    background-image: url(../images/import-comm.png);
+    background-position: -1001px -54px;
+    margin-bottom: 5px;
+}
+
+.s-sidebarContact span {
+    display: block;
+    color: #fff;
+    line-height: 18px;
+}
+.s-sidebarContact span.adv{
+    color: #999;
+}
+.s-sidebarContact .ms-feedback {
+    background: #FFF;
+}
+.s-sidebarContact .ms-feedback:hover .sfl-139 {
+    background-image: url(../images/import-comm.png);
+    background-position: -1006px -27px;
+}
+.s-sidebarContact a {
+    display: block;
+    padding: 5px 0;
+    background: #fd7e29;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1px;
+    outline: none;
+}
+.s-sidebarContact .ms-feedback:hover {
+    background: #FFF;
+    color: #fd7e29;
+}
+.s-sidebarContact span.adv:hover{
+background: #FFF;
+color: #fd7e29;
+}
+.s-sidebarContact a:hover {
+    background: #e86a1d;
+}
+.s-sidebarContact a:hover {
+    background: #e86a1d;
+}
+.s-sidebarTop {
+    cursor: pointer;
+    display: block;
+    width: 48px;
+    background: #FFF;
+    border: 1px solid #EEE;
+    text-align: center;
+    padding: 14px 0;
+}
+.sfl-140 {
+    width: 19px;
+    height: 19px;
+    background-image: url(../images/import-comm.png);
+    background-position: -1073px -66px;
+}
+.s-sidebarTop:hover .sfl-140 {
+    background-image: url(../images/import-comm.png);
+    background-position: -1094px -66px;
+}
+
+
+.f-clearfix:before,
+.f-clearfix:after{
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+.f-clearfix:after{
+    clear: both;
+}
+.f-clearfix{
+    zoom: 1;
+}
+.f-hidden{
+    overflow: hidden;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+
+.clear-40{
+    display: block;
+    line-height: 20px;
+    clear: both;
+    overflow: hidden;
+}
+.clear-40{
+    height: 40px;
+}
+
+
+.s-pb50{
+    padding-bottom: 50px;
+}
+/* s-pag */
+.s-pag{
+    /*padding: 20px;*/
+    text-align: left;
+}
+.s-pag em{
+    display: inline-block;
+    line-height: 26px;
+    color: #999999;
+    font-style: normal;
+    margin-right: 15px;
+}
+.s-pag a{
+    display: inline-block;
+    background: #f8f8f8;
+    padding: 0 20px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.s-pag span{
+    color: #555555;
+    line-height: 26px;
+}
+.s-pag a,
+.s-pag span select{
+    color: #555555;
+    margin: 0 5px;
+    border: 1px solid #d6d6d6;
+    height: 24px;
+    border-radius: 2px;
+}
+
+a.aColor-1282Df{
+    color: #1282df;
+}
+a.aClolor-f60{
+    color: #ff6600;
+    background: #fff;
+}
+.phcolor{
+    color: #A9A9A9!important;
+}
+
+
+/*弹出层样式*/
+.s-boxBg {
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: .60;
+    -moz-opacity: .6;
+    filter: alpha(opacity=60);
+    background: #000;
+    z-index:99999;
+}
+.s-feedback-box, .s-usererror-box {
+    width: 640px;
+    height: 511px;
+    background: #f2f2f2;
+    position: absolute;
+    z-index: 100000;
+    display: none;
+}
+.s-feedback-box_t {
+    height: 60px;
+    line-height: 60px;
+    background: #efefef;
+    position: relative;
+    font-size: 20px;
+    color: #e86b1d;
+    text-indent: 30px;
+}
+.icon31 {
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon31.png) no-repeat;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+.icon31:hover {
+    background: url(../images/icon32.png) no-repeat;
+}
+.s-feedback-box_c {
+     background: #fff;
+     padding: 0 30px 50px 30px;
+ }
+
+.s-feedback-box_c p {
+    color: #333;
+    line-height: 24px;
+    padding: 20px 0;
+    font-family: '\5B8B\4F53';
+    margin: 0;
+}
+.s-feedback-box_c textarea {
+    height: 120px;
+    padding: 5px;
+    margin-bottom: 30px;
+    resize: none;
+    outline: none;
+}
+.s-feedback-box_c input {
+    width: 250px;
+    padding: 10px;
+    outline: none;
+}
+.s-feedback-box_c textarea, .s-feedback-box_c input {
+    color: #999;
+    border: 1px solid #e8e8e8;
+    background: #f6f6f6;
+    font-size: 14px;
+}
+.s-submit-btn {
+    display: inline-block;
+    background: #fd7e29;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 40px;
+    margin: 18px 0 0 250px;
+    position: relative;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+.s-feedback-boxb{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+.s-feedback-box_cb{
+    padding:30px;
+}
+.s-feedback-box_c select{
+    width: 270px;
+    padding: 10px;
+    outline: none;
+    color: #999;
+    border: 1px solid #e8e8e8;
+    background: #f6f6f6;
+    font-size: 14px;
+}
+
+ .s-submit-btnb{
+     width: 100%;
+     text-align: center;
+     margin-top: 20px;
+}
+.s-submit-btnb button{
+    margin: 0;
+}
+
+/*自定义*/
+.margintop40{margin-top: 40px;}

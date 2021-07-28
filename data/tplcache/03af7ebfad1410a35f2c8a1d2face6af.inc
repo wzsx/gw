@@ -1,0 +1,1 @@
+{dede:charset}utf-8{/dede:charset}{dede:list}http://xin.kuaiqitong.com/c/[1-4]/{/dede:list}{dede:page}http://xin.kuaiqitong.com/plus/view.php?aid=(*){/dede:page}{dede:titlerule}<h1>[内容]</h1>{/dede:titlerule}{dede:authorrule}达丰财务{/dede:authorrule}{dede:sourcerule}整理自网络{/dede:sourcerule}{dede:bodyrule}<div class="neirong">[内容]<!-- 版权 -->{/dede:bodyrule}{dede:fyrule}{/dede:fyrule}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_description/}">
+	<meta name="description" content="{dede:global.cfg_keywords/}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">
+<link rel="stylesheet" type="text/css" href="/templets/default/mcss/public.css">
+<script charset="utf-8" src="/templets/default/mcss/lxb.js"></script><script type="text/javascript" src="/templets/default/mcss/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/templets/default/mcss/public.js"></script>
+</head>
+{dede:include filename="head_m.htm"/}
+
+	<div class="szzcgs">
+		<div class="sz-m01">
+			<div class="m01-item">
+				<div class="mokuai fl">
+					<img width="40%" src="/templets/default/mcss/szzcgs_sz.png">
+					<div class="m01-item-title">注册郑州/周边公司</div>
+					<div class="m01-item-subtitle">0元注册郑州公司</div>
+					<div class="m01-item-subtitle">成功从这里开始</div>
+					<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="m01-item-zhuce">立即注册</div></a>
+				</div>
+				<div class="mokuai fr">
+					<img width="40%" src="/templets/default/mcss/szzcgs_qh.png">
+					<div class="m01-item-title">注册公司</div>
+					<div class="m01-item-subtitle">外汇结算,税收优惠,专项扶持</div>
+					<div class="m01-item-subtitle">债券贷款,出口退税</div>
+					<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="m01-item-zhuce">立即注册</div></a>
+				</div>
+				<div class="mokuai fl">
+					<img width="40%" src="/templets/default/mcss/szzcgs_wz.png">
+					<div class="m01-item-title">注册外资（合资）公司</div>
+					<div class="m01-item-subtitle">合作共赢扩展国内市场</div>
+					<div class="m01-item-subtitle">抢占市场先机</div>
+					<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="m01-item-zhuce">立即注册</div></a>
+				</div>
+				<div class="mokuai fr">
+					<img width="40%" src="/templets/default/mcss/szzcgs_gth.png">
+					<div class="m01-item-title">注册个体户</div>
+					<div class="m01-item-subtitle">快速办理注册个体工商户</div>
+					<div class="m01-item-subtitle">圆你创业梦</div>
+					<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="m01-item-zhuce">立即注册</div></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="sz-m02">
+			<ul class="tongji">
+				<li>
+					<div class="m02-shuzi"><span class="total">69368</span>家</div>
+					<div class="m02-heming">达丰总核名</div>
+					<div class="xuxian"></div>
+				</li>
+				<li>
+					<div class="m02-shuzi"><span class="last">860</span>家</div>
+					<div class="m02-heming">上月核名</div>
+				</li>
+				<li>
+					<div class="m02-shuzi"><span class="yest">57</span>家</div>
+					<div class="m02-heming">昨天核名</div>
+				</li>
+				<li>
+					<div class="m02-shuzi"><span class="cgl">78%</span></div>
+					<div class="m02-heming">成功率</div>
+				</li>
+			</ul>
+			<script>
+			var s = false;
+			// 监听滚动
+			$(window).scroll(function() {
+				var sUserAgent = navigator.userAgent.toLowerCase();  
+			    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+			    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+			    var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+			    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+			    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+			    var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+			    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+			    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+			    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+					check();
+			    }
+			});
+			function check(){
+				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+				if(!s&&$(document).scrollTop()>150&&$(document).scrollTop()<180+$(window).height()){
+					s = s?false:true;
+					var a = Math.floor(Date.parse(new Date())/1000/86400);
+					var b = new Date().getMonth();
+					var lastmouth = (b%41)*(b%17)*(b%6)+3317;
+					var yesterday = (a%10)*(a%7)+145;
+					var total = (a%10)*(a%7)*123+65432;
+					var cgl = 76+a%3*a%4;
+					upNumC($(".cgl"),cgl,"t1");
+					upNum($(".yest"),yesterday,"t2");
+					upNum($(".last"),lastmouth,"t3");
+					upNum($(".total"),total,"t4");
+				}
+			}
+			// 增长
+			function upNum(obj,num,T){
+				var i = 0;
+				var ijiange = num/100;
+				var T = setInterval(function(){
+					obj_m.html(Math.ceil(i));
+					if(i>=num){
+						obj_m.html(num);
+						clearInterval(T);
+						return;
+					}
+					i += ijiange;
+				},20);
+			}
+			function upNumC(obj,num,T){
+				var i = 0;
+				var ijiange = num/100;
+				var T = setInterval(function(){
+					obj_m.html(Math.ceil(i)+"%");
+					if(i>=num){
+						obj_m.html(num+"%");
+						clearInterval(T);
+						return;
+					}
+					i += ijiange;
+				},20);
+			}
+			</script>
+			<form act="/plus/diy.php" method="post" name="zhucefrm">
+				<div class="shiyong">注册前看看名字是否被用</div>
+				<div class="gongsi">
+					<input type="text" id="zc_body" placeholder="例：郑州市＋XXX(字号)＋行业+有限公司">
+				</div>
+				<div class="phone fl">
+					<input type="text" id="zc_phone" placeholder="输入手机号码（必填）" onKeyUp="this.value=this.value.replace(/[^0-9-]+/,&#39;&#39;);">
+				</div>
+				<div class="uname fr">
+					<input type="text" id="zc_uname" placeholder="姓名或称呼">
+				</div>
+				<div class="clear"></div>
+				<div class="ljchaxun"><img src="/templets/default/mcss/szzcgs_chaxun.png"><span>立即查询能否注册</span></div>
+			</form>
+			<script>
+			$(function(){
+				// 提交查询
+				$(".ljchaxun").click(function(){
+					var phone=$.trim($("#zc_phone").val());
+					var title=$.trim($("#zc_uname").val());
+					var body=$.trim($("#zc_body").val());
+					var phoneReg = /^1[3578]\d{9}$/; 
+					if(phoneReg.test(phone) == false){
+						alert('手机号码格式错误！');return false;
+					}
+					alert("数据已提交，请持续关注官网动态");
+		            var url = "/index.php?c=message&a=add&tid=27";
+		            $.post(url,{u_phone:phone,body:title+" "+body,title:"注册公司(手机版)"} );
+		            window.location.reload();
+					return false;
+				});
+			});
+			</script>
+			<div class="chaxunjieguo">
+				<div class="wenzi">目前已有 <span>201083</span> 次查询，新查询结果如下：</div>
+				<div class="gundong">
+					<ul style="width: 5776px; left: -450px;">
+						<li>胡先生18679***483  查询：<span>(郑州市XX实业有限公司)</span>&nbsp;被注册或重名&nbsp;&nbsp;&nbsp;&nbsp;</li>
+						<li>黄先生13519***571  查询：<span>(郑州市XX科技有限公司)</span>&nbsp;被注册或重名&nbsp;&nbsp;&nbsp;&nbsp;</li>
+						<li>谢先生18926***870  查询：<span>(郑州市XX装饰有限公司)</span>&nbsp;被注册或重名&nbsp;&nbsp;&nbsp;&nbsp;</li>
+						<li>张先生15711***088  查询：<span>(郑州市XX派遣有限公司)</span>&nbsp;被注册或重名&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="dient"></div>
+		<div class="sz-m03">
+			<div class="sz-m-title">
+				<div class="m-title">
+					<div class="xian"></div>
+					<div class="wenzi">注册公司流程</div>	
+				</div>
+				<div class="m-subtitle">各类型公司注册流程稍有不同</div>
+			</div>
+			<div class="sz-m03-liucheng">
+				<div class="lc fl">1、提交资料</div>
+				<div class="lc fr">2、客服回访</div>
+				<div class="lc fl">3、办理业务</div>
+				<div class="lc fr">4、领取执照</div>
+				<div class="lc fl">5、办理公章</div>
+				<div class="lc fr">6、银行开户</div>
+			</div>
+			<div class="clear"></div>
+			<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="more">立即注册</div></a>
+		</div>
+		<div class="dient"></div>
+		<div class="sz-m04">
+			<div class="sz-m-title">
+				<div class="m-title">
+					<div class="xian"></div>
+					<div class="wenzi">完成后得到的证件</div>	
+				</div>
+				<div class="m-subtitle">各类型公司注册获得的证件稍有不同</div>
+			</div>
+			<div class="sz-m04-zhengjian">
+				<img src="/templets/default/mcss/szzcgs_zhengjian.png" width="100%">
+			</div>
+		</div>
+		<div class="sz-m05">
+			<div class="sz-m05-sx">
+				<div class="sz-m05-sx-title">公司注册后事项</div>
+				<ul>
+					<li>1、会计做账报税（每个月都要报税）</li>
+					<li>2、公司年检</li>
+					<li>3、进出口权办理</li>
+					<li>4、食品经营许可证</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+			<div class="sz-m05-sx">
+				<div class="sz-m05-sx-title">选择性事宜</div>
+				<ul>
+					<li>1、开银行基本户</li>
+					<li>2、实缴验资服务</li>
+					<li>3、发票及设备购买<br>（并在刻章时说明要刻发票专用章）</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+		<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="more">立即办理</div></a>
+		<div class="dient"></div>
+	</div>
+	
+	<div id="handle">
+		<div class="markliuc_title"><i></i><img style="width:3rem;" src="/templets/default/mcss/szzcgs_lingxian.png">同行 时效快 <i></i><p>快速通道，快速办理</p></div>
+		<div class="handle_list">
+			<li>1.客户提供完整资料</li>
+			<img src="/templets/default/mcss/xiajt.jpg">
+			<li>2.专人送至工商专柜办理</li>
+			<img src="/templets/default/mcss/xiajt.jpg">
+			<li>3.专属客服全程跟踪至完成</li>
+			<img src="/templets/default/mcss/xiajt.jpg">
+			<p>合同签订后，即时申报，保证时效，提供专业建议，效率高保证材料上传规范，业内通过率高</p>
+			<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="more">在线咨询</div></a>
+		</div>
+	</div>
+	<div class="dient"></div>
+	<div id="major">
+		<div class="markliuc_title"><i></i> <img style="width:3rem;" src="/templets/default/mcss/szzcgs_zhuanye.png">高效 服务可靠 <i></i><p>达丰财务有限公司有专业的工商服务团队，效率高，服务可靠，多种服务项目为你解忧</p></div>
+		<div class="majorc"><img src="/templets/default/mcss/majorc.jpg"></div>
+		<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="more">在线咨询</div></a>
+	</div>
+	<div class="dient"></div>
+	<div id="field">
+		<div class="markliuc_title"><i></i> 工商服务<img style="width:3rem;" src="/templets/default/mcss/szzcgs_lingyu.png"> <i></i><p>工商服务主营业务</p></div>
+		<div class="field_list">
+			<ul>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册郑州公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册外资公司</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>注册个体工商户</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更公司名称</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更地址</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更法人</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更股权</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>变更注册资金</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>食品流通许可证</li></a>
+				<a href="{dede:global.cfg_baidu/}" target="_blank"><li>餐饮许可证</li></a>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	</div>
+	<div class="dient"></div>
+	<div id="nesslast">
+		<div class="markliuc_title"><img style="height:3rem;" src="/templets/default/mcss/szzcgs_woniu.png"><p>不止有工商服务，代理记账我们一样很优秀</p></div>
+		<div class="nesslast_list">
+			<ul>
+				<a href="/zzbs_m.html" target="_blank"><img src="/templets/default/mcss/nesslast1.jpg"></a>
+				<a href="/" target="_blank"><img src="/templets/default/mcss/nesslast2.jpg"></a>
+				<a href="/" target="_blank"><img src="/templets/default/mcss/nesslast3.jpg"></a>
+        </ul>
+			<p>选择达丰 代账更放心</p>
+		</div>
+		<a href="{dede:global.cfg_baidu/}" target="_blank"><div class="more">在线咨询</div></a>
+	</div>
+	<div class="gundong">
+		<span class="gdtil">资讯</span>
+        <ul style="width: 3928px; left: -149px;">
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>注册公司登记开办流程</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>郑州注册公司对资本的要求</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>工商注册流程</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>2019年郑州注册公司流程及费用</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>什么是注册商标顾问?</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>什么是工商代理</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>注册公司需要提供的资料及流程费用</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>申请材料</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>郑州如何注册建筑公司?需要什么条件和资质?</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>贸易公司怎么注册</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>公司取名需注意哪些事项?</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>郑州如何注册内资公司?</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>注册郑州内资公司的流程</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>郑州公司注册简介</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>自贸区服装公司注册</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>郑州公司营业执照代办公司</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>郑州南山公司注册</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>公司名称变更的步骤有哪些</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>郑州公司不注销后果有哪些？</span></li></a>
+        <a target="_blank" href="{dede:global.cfg_baidu/}"><li><span class="dian"></span><span>注册外资公司这些条件</span></li></a>
+
+        </ul></div>
+	<div class="banner" style="margin-bottom:50px;"><a href="{dede:global.cfg_baidu/}" target="_blank"><img src="/templets/default/mcss/bottom_banner.jpg"></a><div class="clear"></div></div>
+{dede:include filename="footer_m.htm"/}
+
+<script>
+//文字横向滚动
+$(function() {
+	var uwd = 0;
+	$ul = $(".gundong ul");
+	$lis = $ul.children();
+	for($i=0;$i<$lis.length;$i++){
+		uwd += $lis.eq($i).width();
+	}
+	$ul.css("width",uwd+100);
+    var num = 0;
+    function goLeft() {
+        if (num == -$(".gundong ul li:first").width()) {
+            $eq1 = $(".gundong ul li:first").prop("outerHTML");
+            $(".gundong ul").append($eq1);
+            $(".gundong ul li:first").remove();
+            num = 0;
+        }
+        num -= 1;
+        $ul.css({left: num});
+    }
+    var timer = setInterval(goLeft, 30);
+    $(".gundong").hover(function() {
+        // clearInterval(timer);
+    },
+    function() {
+        // timer = setInterval(goLeft, 30);
+    });
+});
+</script>
+<script language="javascript" src="/templets/default/mcss/LsJS.aspx"></script><link href="/templets/default/mcss/JS5.css" rel="stylesheet" type="text/css"><div id="LRdiv0" style="display:none;"></div><div id="LRdiv1" style="display:none;"></div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0a799c9e5859698a710d7a4f7f34653c";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<div id="cntvlive2-is-installed"></div><div id="LRdiv2" style="display: none;"><div id="LRfloater2" style="z-index: 2147483647; right: 0px; bottom: 0px; position: fixed !important;"><div style="width:400px; height:400px;" id="LRMINIWIN"><div id="LRMINIWIN0" style="z-index: 2147483647; position: absolute; height: 30px; overflow: hidden; display: block;right:0"><span style="float:left;clear:none; width:103px;height:20px; overflow:hidden; margin:0 5px;"></span><span style="CURSOR:pointer;float:right;clear:none; width:20px;height:20px; margin:6px 2px 0 0; overflow:hidden;" onClick="lr_closemini(1);"><img style="cursor:pointer;" src="/templets/default/mcss/close.png" border="0"></span><span style="CURSOR:pointer;float:right;overflow:hidden;width:20px;height:20px;clear:none;display:block;margin:6px 2px 0 0;" onClick="lrminiMin();"><img src="/templets/default/mcss/da1.png" style="cursor:pointer;" border="0"></span><span style="CURSOR:pointer;float:right;overflow:hidden;width:20px;height:20px;clear:none;display:block;margin:6px 2px 0 0;" onClick="openZoosUrl(&#39;bchatwin&#39;);lr_hidemini();"><img src="/templets/default/mcss/da.png" style="cursor:pointer;" border="0"></span><span style="CURSOR:pointer;float:right;overflow:hidden;width:20px;height:20px;clear:none;display:block;margin:6px 2px 0 0;" onClick="lrmove();"><img src="/templets/default/mcss/jiantou.png" style="cursor:pointer;" border="0"></span></div><iframe id="LR_miniframe" name="LR_miniframe" width="100%" height="400px" frameborder="0" scrolling="No" allowtransparency="true" src="/templets/default/mcss/saved_resource_m.html"></iframe></div></div></div><div id="LRdiv3" style="display: block;"><div id="LRfloater3" style="z-index: 2147483647; right: 0px; bottom: 0px; position: fixed !important;"><div id="LRMINIBar" class="LR_Mini_ICON" style="display:none;right: 15px;bottom: 30px;" onClick="lrminiMax();"><a class="LR-BTN" style="background-color: #5ba4ed;"><span class="LR-ICON LR-ICON-CHAT1" id="LR-BTN-ICON"></span><span id="LR-CIRCLE" style="display:none;background-color: #5ba4ed;"></span> </a><div id="LR-BUBBLE" style="display:none;width:400px;right: 0;margin-right:34px;cursor:pointer;bottom: 30px;"><span class="LR-ICON" id="LR-BUBBLE-CLOSE" onClick="return closebarhtml(event);"></span><div id="LR-BUBBLE-INSIDE"><div id="LR-BUBBLE-title"><img id="LR-BUBBLE-AVATAR" src="/zcgs_m.html"><span id="LR-BUBBLE-NAME"></span></div><div id="LR-BUBBLE-MSG"></div></div></div></div></div></div></body></html>

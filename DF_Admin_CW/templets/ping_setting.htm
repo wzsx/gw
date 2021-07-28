@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+	<title>织梦提升收录插件</title>
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+</head>
+<body background="images/allbg.gif" leftmargin="8" topmargin='8'>
+	<form method='post' name='form3' id="form3">
+		<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+			<tr>
+				<td height="28" background="images/tbg.gif" colspan="7" style="padding-left:10px;"><b><a>织梦提升收录插件</a></b> - 基本设置</td>
+			</tr>
+			<tr>
+				<td height="28" colspan="7"  style="padding-left:10px;" bgcolor="#FFFFFF">
+					<div style="font-size:20px;padding-top:20px;">PING服务(通用接口)</div>
+					当您发表一篇新文章时，ping服务将向以下站点发出通告，第一时间通知搜索引擎更新您的网页。（<a href="http://zhanzhang.baidu.com/tools/ping" style="color:#F00" target="_blank">什么是Ping服务？</a>）
+				</td>
+			</tr>
+			<tr>
+				<td height="28" colspan="7" style="padding-left:10px;" bgcolor="#FFFFFF">
+					<table>
+						<tr>
+
+							<td><table width='600' border='0' cellpadding='0' cellspacing='0'>
+								<tr>
+									<td>
+										<textarea name="urls" style="width:600px; height:70px;"><?php echo $cfg_ping_urls;?></textarea>
+									</td>
+								</tr>
+							</table></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td height="28" colspan="7"  style="padding-left:10px;" bgcolor="#FFFFFF">
+					<div style="font-size:20px;padding-top:20px;">主动推送(百度专用)</div>
+					主动推送是根据百度站长工具开发的一个功能，根据百度的说明，ping、主动推送、sitemap可以共同配合使用，但单个工具不建议提交相同链接，本插件完全根据百度的文档要求进行开发，请放心使用。
+					<div style="padding:8px 0;">
+						<p>
+							推送状态：
+							<?php if($cfg_ping_tui=='N'){ ?>
+							<font color="red">未开启</font> 
+							<?php }else{ ?>
+							<font color="green">已开启</font> 
+							<?php } ?>
+							<br>
+							今日已推送：<a href="ping.php?ac=log"><?php echo $todayNum; ?></a> 
+							<br>
+							今日剩余推送额度：<?php if($remain>=0) echo $remain; else echo '待查询'; ?> <span style="color:gray;">(额度是由百度分配的，随着时间和权重的增加而增加)</span>
+						</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td height="28" colspan="7" style="padding-left:10px;" bgcolor="#FFFFFF">
+					<table>
+						<tr>
+
+							<td>
+								<table width='600' border='0' cellpadding='5' cellspacing='0'>
+									<tr>
+										<td>
+											推送开关：
+											<label><input type="radio" name="ping_tui" <?php if($cfg_ping_tui=='Y') echo 'checked';?> value="Y"/>开启</label> 
+											<label><input type="radio" name="ping_tui" <?php if($cfg_ping_tui=='N') echo 'checked';?> value="N"/>关闭</label>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											推送token：<input type="text" name="ping_tuitoken" value="<?php echo $cfg_ping_tuitoken; ?>" style="width:200px;" /> <a href="http://www.dedeapps.com/article-view-id-39" target="_blank"><font color="red">如何获取？</font></a>
+										</td>
+									</tr>
+									<tr>
+										<td height="45">
+											<input name="imageField" class="np" type="image" src="../plus/img/button_ok.gif" width="60" height="22" border="0">
+										</td>
+									</tr>
+								</table>
+							</td>
+
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+</body>
+</html>

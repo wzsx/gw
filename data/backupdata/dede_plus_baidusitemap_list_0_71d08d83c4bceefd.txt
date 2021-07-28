@@ -1,0 +1,2 @@
+INSERT INTO `dede_plus_baidusitemap_list` VALUES('1','plus/baidusitemap.php?dopost=sitemap_index&type=indexall&pwd=65532b4a70d2f95e93&pagesize=0','1','1556605080','0');
+INSERT INTO `dede_plus_baidusitemap_list` VALUES('2','plus/baidusitemap.php?dopost=sitemap_index&type=indexall&pwd=65532b4a70d2f95e93&pagesize=1','1','1556605080','1');
